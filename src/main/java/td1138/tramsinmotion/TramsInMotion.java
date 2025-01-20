@@ -53,23 +53,17 @@ public class TramsInMotion {
 	public static AbstractTrains[] listElectricTrains() {
 		return new AbstractTrains[]{
 				new EntityLocoElectricCStockEngine(null),
-				new EntityLocoElectricDStockEngine(null),
-				new EntityLocoElectricClass88(null),
-				new EntityLocoElectricHLEClass18(null),
 		};
 	}
 
 	public static AbstractTrains[] listDieselTrains() {
 		return new AbstractTrains[]{
-				new EntityLocoDieselClass74(null),
-				new EntityLocoDieselClass68(null),
 		};
 	}
 
 	public static AbstractTrains[] listSteamTrains() {
 
 		return new AbstractTrains[]{
-				//new EntityLocoGWRMogul(null),
 		};
 	}
 
@@ -77,17 +71,13 @@ public class TramsInMotion {
 
 		return new AbstractTrains[]{
 				new EntityPassengerCStockPassenger(null),
-				new EntityPassengerDStockPassenger(null),
-				new EntityPassengerBRMk3Sleeper(null),
-				new EntityPassengerSNCBM6(null),
-				new EntityPassengerSNCBM6Tail(null),
+
 		};
 	}
 
 	public static AbstractTrains[] listFreight() {
 
 		return new AbstractTrains[]{
-				new EntityFreightLessCoWagon(null),
 		};
 	}
 
@@ -99,7 +89,6 @@ public class TramsInMotion {
 	public static AbstractTrains[] listTender() {
 
 		return new AbstractTrains[]{
-				new EntityTenderChurchward3500Gal(null),
 		};
 	}
 }
