@@ -5,16 +5,15 @@
 <!-- Items -->
 
 item.bipRecipeBook.name=BIP Recipe Book
-item.London Underground C-Stock Engine.name=London Underground C-Stock Engine
-item.London Underground C-Stock Passenger.name=London Underground C-Stock Passenger
+item.GT6ERLoco.name=Duewag GT6ER Loco
+item.GT6ERTail.name=Duewag GT6ER Tail
 
 
 
 <!-- Entities -->
 entity.tc.BIPRecipeBook.name=BIP Recipe Book
-entity.tc.London Underground C-Stock.name=London Underground C-Stock Engine
-entity.tc.CstockEngine.name=C Stock Engine
-entity.tc.CstockPassenger.name=C Stock Passenger
+entity.tc.GT6ERLoco.name=Duewag GT6ER Loco
+entity.tc.GT6ERTail.name=Duewag GT6ER Tail
 
 <!-- ## GUI ## -->
 menu.item.country=Country

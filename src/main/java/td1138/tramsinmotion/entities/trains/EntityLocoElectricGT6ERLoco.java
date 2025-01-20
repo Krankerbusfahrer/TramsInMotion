@@ -10,7 +10,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.oredict.OreDictionary;
 import td1138.tramsinmotion.TramsInMotion;
 import td1138.tramsinmotion.library.TramsInMotionInfo;
-import td1138.tramsinmotion.models.trains.ModelCstockEngine;
+import td1138.tramsinmotion.models.trains.ModelDuewagGT6ERLoco;
 import train.common.api.AbstractTrains;
 import train.common.api.ElectricTrain;
 import train.common.api.Locomotive;
@@ -25,7 +25,7 @@ import train.common.library.ItemIDs;
  * @author TheDoctor1138
  */
 
-public class EntityLocoElectricCStockEngine extends ElectricTrain {
+public class EntityLocoElectricGT6ERLoco extends ElectricTrain {
 
     /**
      * <h2>Basic Train Constructor</h2>
@@ -46,7 +46,7 @@ public class EntityLocoElectricCStockEngine extends ElectricTrain {
      *     The last part defines the unlocalized name, this is used for the item name, entity name, and language file entries.
      */
 
-    public static final Item thisItem = new ItemRollingStock(new EntityLocoElectricCStockEngine(null), TramsInMotionInfo.modID, TramsInMotion.tabTramsInMotion);
+    public static final Item thisItem = new ItemRollingStock(new EntityLocoElectricGT6ERLoco(null), TramsInMotionInfo.modID, TramsInMotion.tabTramsInMotion);
 
     /**
      * these basic constructors only need to have their names changed to that of this class, that is assuming your editor doesn't automatically do that.
@@ -54,19 +54,19 @@ public class EntityLocoElectricCStockEngine extends ElectricTrain {
      * @see Locomotive
      */
 
-    public EntityLocoElectricCStockEngine(World world, double x, double y, double z){
+    public EntityLocoElectricGT6ERLoco(World world, double x, double y, double z){
         super(world,x,y,z);
     }
-    public EntityLocoElectricCStockEngine(World world){
+    public EntityLocoElectricGT6ERLoco(World world){
         super(world);
     }
 
     @Override
-    public String transportName(){return "London Underground C-Stock Engine";}
+    public String transportName(){return "Duewag GT6ER Loco";}
     @Override
-    public String transportcountry(){return "uk";}
+    public String transportcountry(){return "de";}
     @Override
-    public String transportYear(){return "1969";}
+    public String transportYear(){return "1961";}
     @Override
     public String transportFuelType(){return "Electric";}
     @Override
@@ -76,10 +76,10 @@ public class EntityLocoElectricCStockEngine extends ElectricTrain {
 
     @Override
     public void registerSkins(){
-        SkinRegistry.addSkin(this.getClass(), TramsInMotionInfo.modID, "textures/trains/C_stock_Blue.png",new String[]{},
-                "default", "");
-        SkinRegistry.addSkin(this.getClass(), TramsInMotionInfo.modID, "textures/trains/C_stock_Grey.png",new String[]{},
-                "Grey", "");
+        SkinRegistry.addSkin(this.getClass(), TramsInMotionInfo.modID, "textures/trains/Duewag_GT6ER_Grey.png",new String[]{},
+                "Grey", "Livery used in Mainz until the 1990s");
+        SkinRegistry.addSkin(this.getClass(), TramsInMotionInfo.modID, "textures/trains/Duewag_GT6ER_Green.png",new String[]{},
+                "Green", "Duewag Beige livery with a green stripe");
     }
 
     /**
@@ -95,7 +95,7 @@ public class EntityLocoElectricCStockEngine extends ElectricTrain {
      */
 
     @Override
-    public float transportTopSpeed(){return 80f;}
+    public float transportTopSpeed(){return 70f;}
 
     /**
      * <h2>Inventory Size</h2>
@@ -111,11 +111,11 @@ public class EntityLocoElectricCStockEngine extends ElectricTrain {
      *     Only the first 3 values of each set of floats are actually used.
      */
     @Override
-    public float[][] getRiderOffsets(){ return new float[][]{{-1.5f,-0.5f,-0.40f}};}
+    public float[][] getRiderOffsets(){ return new float[][]{{0.0f,-0.1f,-0.0f}};}
 
     @Override
     public float[] getHitboxSize() {
-        return new float[]{0.55f,2.1f,1f};
+        return new float[]{1.5f,1.5f,1f};
     }
 
 
@@ -127,7 +127,7 @@ public class EntityLocoElectricCStockEngine extends ElectricTrain {
 
     @Override
     public float[] rotationPoints() {
-        return new float[]{1.3f, -1.3f};
+        return new float[]{1.55f, -1.7f};
     }
 
     /**
@@ -141,11 +141,11 @@ public class EntityLocoElectricCStockEngine extends ElectricTrain {
 
     @Override
     public String[] additionalItemText() {
-        return new String[]{"Funny Beep Barp Train"};
+        return new String[]{"A Classic German Tram"};
     }
 
     @Override
-    public float weightKg(){return 31f;}
+    public float weightKg(){return 22000f;}
 
     @Override
     public ItemStack[] getRecipe() {
@@ -222,7 +222,7 @@ public class EntityLocoElectricCStockEngine extends ElectricTrain {
 
 
     @Override
-    public ModelBase[] getModel(){return new ModelBase[]{new ModelCstockEngine()};}
+    public ModelBase[] getModel(){return new ModelBase[]{new ModelDuewagGT6ERLoco()};}
 
     /**defines the scale to render the model at. Default is 0.0625*/
     public float[][] getRenderScale(){

@@ -8,7 +8,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.oredict.OreDictionary;
 import td1138.tramsinmotion.TramsInMotion;
 import td1138.tramsinmotion.library.TramsInMotionInfo;
-import td1138.tramsinmotion.models.rollingstock.ModelCstockPassenger;
+import td1138.tramsinmotion.models.rollingstock.ModelDuewagGT6ERTail;
 import train.common.api.EntityRollingStock;
 import train.common.api.IPassenger;
 import train.common.items.ItemRollingStock;
@@ -21,19 +21,19 @@ import static ebf.tim.utility.CommonUtil.DefineStack;
  * For more information on the overrides and functions:
  * @author Eternal Blue Flame
  */
-public class EntityPassengerCStockPassenger extends EntityRollingStock implements IPassenger {
+public class EntityPassengerGT6ERTail extends EntityRollingStock implements IPassenger {
     /*private static final String[] itemDescription = new String[]{
             "\u00A77" + StatCollector.translateToLocal("menu.item.weight") +": 2 " + StatCollector.translateToLocal("menu.item.tons"),
             "\u00A77" + StatCollector.translateToLocal("menu.item.seats") +": 4 " + StatCollector.translateToLocal("menu.item.players")};*/
 
 
-    public static final Item thisItem = new ItemRollingStock(new EntityPassengerCStockPassenger(null), TramsInMotionInfo.modID, TramsInMotion.tabTramsInMotion);
+    public static final Item thisItem = new ItemRollingStock(new EntityPassengerGT6ERTail(null), TramsInMotionInfo.modID, TramsInMotion.tabTramsInMotion);
 
 
-    public EntityPassengerCStockPassenger(World world, double d, double d1, double d2) {
+    public EntityPassengerGT6ERTail(World world, double d, double d1, double d2) {
         super(world, d, d1, d2);
     }
-    public EntityPassengerCStockPassenger(World world){
+    public EntityPassengerGT6ERTail(World world){
         super(world);
     }
 
@@ -45,7 +45,7 @@ public class EntityPassengerCStockPassenger extends EntityRollingStock implement
      */
     @Override
     public float[] rotationPoints() {
-        return new float[]{1.3f, -1.3f};
+        return new float[]{1.55f, -1.7f};
     }
 
     @Override
@@ -55,10 +55,10 @@ public class EntityPassengerCStockPassenger extends EntityRollingStock implement
 
     @Override
     public void registerSkins(){
-        SkinRegistry.addSkin(this.getClass(), TramsInMotionInfo.modID, "textures/trains/C_stock_Blue.png",new String[]{},
-                "default", "London Underground Modern Livery");
-        SkinRegistry.addSkin(this.getClass(), TramsInMotionInfo.modID, "textures/trains/C_stock_Grey.png",new String[]{},
-                "Grey", "London Underground Old Grey Livery");
+        SkinRegistry.addSkin(this.getClass(), TramsInMotionInfo.modID, "textures/trains/Duewag_GT6ER_Grey.png",new String[]{},
+                "Grey", "Livery used in Mainz until the 1990s");
+        SkinRegistry.addSkin(this.getClass(), TramsInMotionInfo.modID, "textures/trains/Duewag_GT6ER_Green.png",new String[]{},
+                "Green", "Duewag Beige livery with a green stripe");
     }
 
     @Override
@@ -97,17 +97,17 @@ public class EntityPassengerCStockPassenger extends EntityRollingStock implement
 
     @Override
     public String transportName() {
-        return "London Underground C-Stock Passenger";
+        return "Duewag GT6ER Tail";
     }
 
     @Override
     public String transportcountry() {
-        return "uk";
+        return "de";
     }
 
     @Override
     public String transportYear() {
-        return "1969";
+        return "1961";
     }
 
     @Override
@@ -143,15 +143,15 @@ public class EntityPassengerCStockPassenger extends EntityRollingStock implement
      * <h2>Rider offsets</h2>
      */
     @Override
-    public float[][] getRiderOffsets(){return new float[][]{{1.6f,-0.5f, 0.40f}};}
+    public float[][] getRiderOffsets(){return new float[][]{{0.0f,0f, 0.0f}};}
 
     @Override
     public float[] getHitboxSize() {
-        return new float[]{1.5f,2.1f,1.0f};
+        return new float[]{1.5f,1.5f,1.0f};
     }
 
     @Override
-    public ModelBase[] getModel(){return new ModelBase[]{new ModelCstockPassenger()};}
+    public ModelBase[] getModel(){return new ModelBase[]{new ModelDuewagGT6ERTail()};}
 
     /**
      * <h2>pre-asigned values</h2>
