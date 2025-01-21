@@ -7,6 +7,8 @@
 item.bipRecipeBook.name=BIP Recipe Book
 item.GT6ERLoco.name=Duewag GT6ER Loco
 item.GT6ERTail.name=Duewag GT6ER Tail
+item.PT8Loco.name=PT8 Loco
+item.PT8Middle.name=PT8 Middle
 
 
 
@@ -14,6 +16,8 @@ item.GT6ERTail.name=Duewag GT6ER Tail
 entity.tc.BIPRecipeBook.name=BIP Recipe Book
 entity.tc.GT6ERLoco.name=Duewag GT6ER Loco
 entity.tc.GT6ERTail.name=Duewag GT6ER Tail
+entity.tc.PT8Loco.name=PT8 Loco
+entity.tc.PT8Middle.name=PT8 Middle
 
 <!-- ## GUI ## -->
 menu.item.country=Country

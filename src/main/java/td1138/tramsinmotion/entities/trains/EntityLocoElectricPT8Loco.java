@@ -10,7 +10,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.oredict.OreDictionary;
 import td1138.tramsinmotion.TramsInMotion;
 import td1138.tramsinmotion.library.TramsInMotionInfo;
-import td1138.tramsinmotion.models.trains.ModelDuewagGT6ERLoco;
+import td1138.tramsinmotion.models.trains.ModelPT8End;
 import train.common.api.AbstractTrains;
 import train.common.api.ElectricTrain;
 import train.common.api.Locomotive;
@@ -25,7 +25,7 @@ import train.common.library.ItemIDs;
  * @author TheDoctor1138
  */
 
-public class EntityLocoElectricGT6ERLoco extends ElectricTrain {
+public class EntityLocoElectricPT8Loco extends ElectricTrain {
 
     /**
      * <h2>Basic Train Constructor</h2>
@@ -46,7 +46,7 @@ public class EntityLocoElectricGT6ERLoco extends ElectricTrain {
      *     The last part defines the unlocalized name, this is used for the item name, entity name, and language file entries.
      */
 
-    public static final Item thisItem = new ItemRollingStock(new EntityLocoElectricGT6ERLoco(null), TramsInMotionInfo.modID, TramsInMotion.tabTramsInMotion);
+    public static final Item thisItem = new ItemRollingStock(new EntityLocoElectricPT8Loco(null), TramsInMotionInfo.modID, TramsInMotion.tabTramsInMotion);
 
     /**
      * these basic constructors only need to have their names changed to that of this class, that is assuming your editor doesn't automatically do that.
@@ -54,19 +54,19 @@ public class EntityLocoElectricGT6ERLoco extends ElectricTrain {
      * @see Locomotive
      */
 
-    public EntityLocoElectricGT6ERLoco(World world, double x, double y, double z){
+    public EntityLocoElectricPT8Loco(World world, double x, double y, double z){
         super(world,x,y,z);
     }
-    public EntityLocoElectricGT6ERLoco(World world){
+    public EntityLocoElectricPT8Loco(World world){
         super(world);
     }
 
     @Override
-    public String transportName(){return "Duewag GT6ER Loco";}
+    public String transportName(){return "Duewag PT8 Loco";}
     @Override
     public String transportcountry(){return "de";}
     @Override
-    public String transportYear(){return "1961";}
+    public String transportYear(){return "1972";}
     @Override
     public String transportFuelType(){return "Electric";}
     @Override
@@ -76,10 +76,8 @@ public class EntityLocoElectricGT6ERLoco extends ElectricTrain {
 
     @Override
     public void registerSkins(){
-        SkinRegistry.addSkin(this.getClass(), TramsInMotionInfo.modID, "textures/trains/Duewag_GT6ER_Grey.png",new String[]{},
-                "Grey", "Livery used in Mainz until the 1990s");
-        SkinRegistry.addSkin(this.getClass(), TramsInMotionInfo.modID, "textures/trains/Duewag_GT6ER_Green.png",new String[]{},
-                "Green", "Duewag Beige livery with a green stripe");
+        SkinRegistry.addSkin(this.getClass(), TramsInMotionInfo.modID, "textures/trains/PT8_Orange.png",new String[]{},
+                "Orange", "Livery used in Frankfurt until the 1990s");
     }
 
     /**
@@ -222,7 +220,7 @@ public class EntityLocoElectricGT6ERLoco extends ElectricTrain {
 
 
     @Override
-    public ModelBase[] getModel(){return new ModelBase[]{new ModelDuewagGT6ERLoco()};}
+    public ModelBase[] getModel(){return new ModelBase[]{new ModelPT8End()};}
 
     /**defines the scale to render the model at. Default is 0.0625*/
     public float[][] getRenderScale(){
