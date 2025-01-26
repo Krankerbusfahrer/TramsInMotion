@@ -224,7 +224,7 @@ public class EntityLocoElectricPT8Loco extends ElectricTrain {
 
     /**defines the scale to render the model at. Default is 0.0625*/
     public float[][] getRenderScale(){
-        return new float[][]{{1.0f, 1.0f, 1.0f}};
+        return new float[][]{{1.0f, 1.05f, 1.0f}};
     }
 
     @SideOnly(Side.CLIENT)

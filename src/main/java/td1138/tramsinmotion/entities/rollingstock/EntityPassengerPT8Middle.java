@@ -150,6 +150,11 @@ public class EntityPassengerPT8Middle extends EntityRollingStock implements IPas
     @Override
     public ModelBase[] getModel(){return new ModelBase[]{new ModelPT8Middle()};}
 
+    /**defines the scale to render the model at. Default is 0.0625*/
+    public float[][] getRenderScale(){
+        return new float[][]{{1f, 1.05f, 1f}};
+    }
+
     /**
      * <h2>pre-asigned values</h2>
      */
