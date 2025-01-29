@@ -8,7 +8,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.oredict.OreDictionary;
 import td1138.tramsinmotion.TramsInMotion;
 import td1138.tramsinmotion.library.TramsInMotionInfo;
-import td1138.tramsinmotion.models.rollingstock.ModelPT8Middle;
+import td1138.tramsinmotion.models.rollingstock.ModelMGTKTail;
 import train.common.api.EntityRollingStock;
 import train.common.api.IPassenger;
 import train.common.items.ItemRollingStock;
@@ -19,19 +19,19 @@ import train.common.library.ItemIDs;
  * For more information on the overrides and functions:
  * @author Eternal Blue Flame
  */
-public class EntityPassengerPT8Middle extends EntityRollingStock implements IPassenger {
+public class EntityPassengerMGTKTail extends EntityRollingStock implements IPassenger {
     /*private static final String[] itemDescription = new String[]{
             "\u00A77" + StatCollector.translateToLocal("menu.item.weight") +": 2 " + StatCollector.translateToLocal("menu.item.tons"),
             "\u00A77" + StatCollector.translateToLocal("menu.item.seats") +": 4 " + StatCollector.translateToLocal("menu.item.players")};*/
 
 
-    public static final Item thisItem = new ItemRollingStock(new EntityPassengerPT8Middle(null), TramsInMotionInfo.modID, TramsInMotion.tabTramsInMotion);
+    public static final Item thisItem = new ItemRollingStock(new EntityPassengerMGTKTail(null), TramsInMotionInfo.modID, TramsInMotion.tabTramsInMotion);
 
 
-    public EntityPassengerPT8Middle(World world, double d, double d1, double d2) {
+    public EntityPassengerMGTKTail(World world, double d, double d1, double d2) {
         super(world, d, d1, d2);
     }
-    public EntityPassengerPT8Middle(World world){
+    public EntityPassengerMGTKTail(World world){
         super(world);
     }
 
@@ -53,8 +53,8 @@ public class EntityPassengerPT8Middle extends EntityRollingStock implements IPas
 
     @Override
     public void registerSkins(){
-        SkinRegistry.addSkin(this.getClass(), TramsInMotionInfo.modID, "textures/trains/PT8_Orange.png",new String[]{},
-                "Orange", "Livery used in Frankfurt until the 1990s");
+        SkinRegistry.addSkin(this.getClass(), TramsInMotionInfo.modID, "textures/trains/MGT_K_Grey.png",new String[]{},
+                "Grey", "Standard HAVAG Livery");
     }
 
     @Override
@@ -93,7 +93,7 @@ public class EntityPassengerPT8Middle extends EntityRollingStock implements IPas
 
     @Override
     public String transportName() {
-        return "Duewag PT8 Middle";
+        return "MGT-K Tail";
     }
 
     @Override
@@ -103,7 +103,7 @@ public class EntityPassengerPT8Middle extends EntityRollingStock implements IPas
 
     @Override
     public String transportYear() {
-        return "1972";
+        return "2004";
     }
 
     @Override
@@ -147,11 +147,11 @@ public class EntityPassengerPT8Middle extends EntityRollingStock implements IPas
     }
 
     @Override
-    public ModelBase[] getModel(){return new ModelBase[]{new ModelPT8Middle()};}
+    public ModelBase[] getModel(){return new ModelBase[]{new ModelMGTKTail()};}
 
     /**defines the scale to render the model at. Default is 0.0625*/
     public float[][] getRenderScale(){
-        return new float[][]{{1f, 1.05f, 1f}};
+        return new float[][]{{1.0f, 1.0f, 1.0f}};
     }
 
     /**

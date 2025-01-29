@@ -54,6 +54,7 @@ public class TramsInMotion {
 		return new AbstractTrains[]{
 				new EntityLocoElectricGT6ERLoco(null),
 				new EntityLocoElectricPT8Loco(null),
+				new EntityLocoElectricMGTKLoco(null),
 		};
 	}
 
@@ -73,6 +74,7 @@ public class TramsInMotion {
 		return new AbstractTrains[]{
 				new EntityPassengerGT6ERTail(null),
 				new EntityPassengerPT8Middle(null),
+				new EntityPassengerMGTKTail(null),
 
 		};
 	}

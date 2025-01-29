@@ -7,7 +7,7 @@
 // Created on: 03.11.2024 - 20:05:40
 // Last changed on: 03.11.2024 - 20:05:40
 
-package td1138.tramsinmotion.models.trains; //Path where the model is located
+package td1138.tramsinmotion.models.rollingstock; //Path where the model is located
 
 
 import fexcraft.tmt.slim.ModelConverter;

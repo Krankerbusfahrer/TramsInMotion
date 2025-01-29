@@ -9,7 +9,8 @@ item.GT6ERLoco.name=Duewag GT6ER Loco
 item.GT6ERTail.name=Duewag GT6ER Tail
 item.PT8Loco.name=PT8 Loco
 item.PT8Middle.name=PT8 Middle
-
+item.MGTKLoco.name=MGT-K Loco
+item.MGTKTail.name=MGT-K Tail
 
 
 <!-- Entities -->
@@ -18,6 +19,8 @@ entity.tc.GT6ERLoco.name=Duewag GT6ER Loco
 entity.tc.GT6ERTail.name=Duewag GT6ER Tail
 entity.tc.PT8Loco.name=PT8 Loco
 entity.tc.PT8Middle.name=PT8 Middle
+entity.tc.MGTKLoco.name=MGT-K Loco
+entity.tc.MGTKTail.name=MGT-K Tail
 
 <!-- ## GUI ## -->
 menu.item.country=Country
