@@ -5,12 +5,12 @@
 <!-- Items -->
 
 item.bipRecipeBook.name=BIP Recipe Book
-item.GT6ERLoco.name=Duewag GT6ER Loco
-item.GT6ERTail.name=Duewag GT6ER Tail
-item.PT8Loco.name=PT8 Loco
-item.PT8Middle.name=PT8 Middle
-item.MGTKLoco.name=MGT-K Loco
-item.MGTKTail.name=MGT-K Tail
+item.Duewag GT6ER Loco.name=Duewag GT6ER Loco
+item.Duewag GT6ER Tail.name=Duewag GT6ER Tail
+item.PT8 Loco.name=PT8 Loco
+item.PT8 Middle.name=PT8 Middle
+item.MGT-K Loco.name=MGT-K Loco
+item.MGT-K Tail.name=MGT-K Tail
 
 
 <!-- Entities -->

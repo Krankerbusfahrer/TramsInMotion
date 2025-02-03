@@ -93,7 +93,7 @@ public class EntityPassengerPT8Middle extends EntityRollingStock implements IPas
 
     @Override
     public String transportName() {
-        return "Duewag PT8 Middle";
+        return "PT8 Middle";
     }
 
     @Override

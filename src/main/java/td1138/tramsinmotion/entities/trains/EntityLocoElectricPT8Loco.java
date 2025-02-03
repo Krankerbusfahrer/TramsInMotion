@@ -62,7 +62,7 @@ public class EntityLocoElectricPT8Loco extends ElectricTrain {
     }
 
     @Override
-    public String transportName(){return "Duewag PT8 Loco";}
+    public String transportName(){return "PT8 Loco";}
     @Override
     public String transportcountry(){return "de";}
     @Override
