@@ -29,13 +29,12 @@ public class TramsIMBlocks {
 		setHarvestLevels();
 	}
 
-	public static Block sidedtrampoledoublepole=new BlockBridgePillar().setHardness(3.5F).setStepSound(Block.soundTypeMetal);
+	public static Block centeredpole=new BlockBridgePillar().setHardness(3.5F).setStepSound(Block.soundTypeMetal);
 
 
 	public static void loadBlocks() {
-		TraincraftRegistry.registerBlock(bridgePillar,Traincraft.tcTab, Info.modID,"bridgePillar");
-
-
+		TraincraftRegistry.registerBlock(centeredpole,Traincraft.tcTab, Info.modID,"centeredpole");
+		
 		}
 
 	}
