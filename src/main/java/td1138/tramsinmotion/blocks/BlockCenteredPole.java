@@ -3,14 +3,18 @@ package td1138.tramsinmotion.blocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
+import net.minecraft.util.MathHelper;
 import net.minecraft.world.World;
+import net.minecraftforge.common.util.ForgeDirection;
 import td1138.tramsinmotion.TramsInMotion;
 import train.common.Traincraft;
 import train.common.api.blocks.BlockDynamic;
 import train.common.library.GuiIDs;
+import train.common.tile.TileCrafterTierI;
 
 import java.util.Random;
 

@@ -146,7 +146,7 @@ repositories {
 }
 
 dependencies {
-	// `compile` will compile it and run with `runClient`/`runServer`
+// `compile` will compile it and run with `runClient`/`runServer`
     // `compileOnly will only compile but not load in dev testing (can still put in the instance mods directory though)
 	compileOnly "li.cil.oc:OpenComputers:MC1.7.10-1.7.2.1204:dev"
 	compileOnly "com.mod-buildcraft:buildcraft:7.1.23:dev"
@@ -158,6 +158,22 @@ dependencies {
     // quality of life line to simplify importing jars for experimental testing
     compile fileTree(dir: 'lib', include: ['*.jar'])
 }
+repositories {
+    maven {
+        name "ChickenBones"
+        url "http://chickenbones.net/maven/"
+    }
+    maven {
+        url = "http://maven.cil.li/"
+    }
+}
+dependencies
+        {
+            compile "codechicken:ForgeMultipart:1.7.10-1.2.0.345:dev"
+        }
+
+
+
 
 afterEvaluate {
     tasks["idea"].dependsOn.add(buildClonedRepo);
