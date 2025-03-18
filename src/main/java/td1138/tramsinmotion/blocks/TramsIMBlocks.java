@@ -23,11 +23,11 @@ public class TramsIMBlocks {
 		setHarvestLevels();
 	}
 
-	public static Block centeredpole=new BlockCenteredPole().setHardness(3.5F).setStepSound(Block.soundTypeMetal);
+	public static Block CenteredPole=new BlockCenteredPole().setHardness(3.5F).setStepSound(Block.soundTypeMetal);
 
 
 	public static void loadBlocks() {
-		TraincraftRegistry.registerBlock(centeredpole, Traincraft.tcTab, TramsInMotionInfo.modID,"centeredpole");
+		TraincraftRegistry.registerBlock(CenteredPole, Traincraft.tcTab, TramsInMotionInfo.modID,"centeredpole");
 
 
 
@@ -47,7 +47,7 @@ public class TramsIMBlocks {
 }
 
 	public static void setHarvestLevels() {
-		TramsIMBlocks.centeredpole.setHarvestLevel("axe", 0);
+		TramsIMBlocks.CenteredPole.setHarvestLevel("axe", 0);
 
 	}
 }
