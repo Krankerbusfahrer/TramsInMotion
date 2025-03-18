@@ -143,7 +143,7 @@ public class EntityPassengerMGTKTail extends EntityRollingStock implements IPass
 
     @Override
     public float[] getHitboxSize() {
-        return new float[]{1.5f,1.5f,1.0f};
+        return new float[]{4f,1.5f,1.0f};
     }
 
     @Override

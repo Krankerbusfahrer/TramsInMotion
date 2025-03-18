@@ -7,7 +7,7 @@
 
 package td1138.tramsinmotion.blocks;
 
-
+import net.minecraft.block.material.Material;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 import td1138.tramsinmotion.library.TramsInMotionInfo;
@@ -23,7 +23,7 @@ public class TramsIMBlocks {
 		setHarvestLevels();
 	}
 
-	public static Block CenteredPole=new BlockCenteredPole().setHardness(3.5F).setStepSound(Block.soundTypeMetal);
+	public static Block CenteredPole=new BlockCenteredPole(Material.iron ).setHardness(3.5F).setStepSound(Block.soundTypeMetal);
 
 
 	public static void loadBlocks() {
