@@ -5,12 +5,14 @@
  * @author Mrbrutal
  ******************************************************************************/
 
-package td1138.tramsinmotion.blocks.;
+package td1138.tramsinmotion.blocks;
 
 
+import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 import td1138.tramsinmotion.library.TramsInMotionInfo;
 import train.common.Traincraft;
+import train.common.library.BlockIDs;
 import train.common.library.TraincraftRegistry;
 
 public class TramsIMBlocks {
@@ -27,14 +29,14 @@ public class TramsIMBlocks {
 	public static void loadBlocks() {
 		TraincraftRegistry.registerBlock(centeredpole, Traincraft.tcTab, TramsInMotionInfo.modID,"centeredpole");
 
-		}
+
 
 	}
 
 	public static void registerBlocks() {
 		for (BlockIDs blocks : BlockIDs.values()) {
 			if(blocks.block != null) {
-				blocks.block.setBlockName(Info.modID + ":" + blocks.name());
+				blocks.block.setBlockName(TramsInMotionInfo.modID + ":" + blocks.name());
 				if (blocks.hasItemBlock) {
 					GameRegistry.registerBlock(blocks.block, blocks.itemBlockClass, blocks.name());
 				} else {
@@ -42,22 +44,10 @@ public class TramsIMBlocks {
 				}
 			}
 		}
-	}
+}
 
 	public static void setHarvestLevels() {
-		TCBlocks.assemblyTableII.setHarvestLevel("axe", 0);
-		TCBlocks.assemblyTableIII.setHarvestLevel("axe", 0);
-		BlockIDs.waterWheel.block.setHarvestLevel("axe", 0);
-		BlockIDs.windMill.block.setHarvestLevel("axe", 0);
-		BlockIDs.oreTC.block.setHarvestLevel("pickaxe", 1);
-		BlockIDs.snowGravel.block.setHarvestLevel("shovel",0);
-		BlockIDs.poweredGravel.block.setHarvestLevel("shovel",0);
-		BlockIDs.signalSpanish.block.setHarvestLevel("pickaxe",1);
-		BlockIDs.asphalt.block.setHarvestLevel("pickaxe", 0);
-		BlockIDs.metroMadridPole.block.setHarvestLevel("pickaxed", 0);
+		TramsIMBlocks.centeredpole.setHarvestLevel("axe", 0);
 
-		Blocks.rail.setHarvestLevel("ItemStacked", 0);
-		Blocks.detector_rail.setHarvestLevel("ItemStacked", 0);
-		Blocks.golden_rail.setHarvestLevel("ItemStacked", 0);
 	}
 }

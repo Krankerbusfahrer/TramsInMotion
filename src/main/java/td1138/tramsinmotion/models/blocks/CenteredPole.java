@@ -7,19 +7,17 @@
 // Created on: 28.11.2024 - 12:18:57
 // Last changed on: 28.11.2024 - 12:18:57
 
-package com.flansmod.client.model.YourPackage; //Path where the model is located
+package td1138.tramsinmotion.blocks; //Path where the model is located
 
-import com.flansmod.client.model.ModelPlane;
-import com.flansmod.client.tmt.ModelRendererTurbo;
-import com.flansmod.client.tmt.Coord2D;
-import com.flansmod.client.tmt.Shape2D;
+import fexcraft.tmt.slim.ModelConverter;
+import fexcraft.tmt.slim.ModelRendererTurbo;
 
-public class ModelYourClassName extends ModelPlane //Same as Filename
+public class CenteredPole extends ModelConverter //Same as Filename
 {
 	int textureX = 512;
 	int textureY = 64;
 
-	public ModelYourClassName() //Same as Filename
+	public CenteredPole() //Same as Filename
 	{
 		bodyModel = new ModelRendererTurbo[36];
 
