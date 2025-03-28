@@ -55,6 +55,7 @@ public class TramsInMotion {
 				new EntityLocoElectricGT6ERLoco(null),
 				new EntityLocoElectricPT8Loco(null),
 				new EntityLocoElectricMGTKLoco(null),
+				new EntityLocoElectricB80DLoco(null),
 		};
 	}
 
@@ -75,6 +76,7 @@ public class TramsInMotion {
 				new EntityPassengerGT6ERTail(null),
 				new EntityPassengerPT8Middle(null),
 				new EntityPassengerMGTKTail(null),
+				new EntityPassengerB80DTail(null),
 
 		};
 	}

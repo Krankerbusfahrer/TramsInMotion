@@ -11,6 +11,8 @@ item.PT8 Loco.name=PT8 Loco
 item.PT8 Middle.name=PT8 Middle
 item.MGT-K Loco.name=MGT-K Loco
 item.MGT-K Tail.name=MGT-K Tail
+item.B80D Loco.name=B80D Loco
+item.B80D Tail.name=B80D Tail
 
 
 <!-- Entities -->
@@ -21,6 +23,8 @@ entity.tc.PT8Loco.name=PT8 Loco
 entity.tc.PT8Middle.name=PT8 Middle
 entity.tc.MGTKLoco.name=MGT-K Loco
 entity.tc.MGTKTail.name=MGT-K Tail
+entity.tc.B80DLoco.name=B80D Loco
+entity.tc.B80DTail.name=B80D Tail
 
 <!-- ## GUI ## -->
 menu.item.country=Country
