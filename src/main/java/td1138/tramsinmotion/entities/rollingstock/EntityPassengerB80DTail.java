@@ -143,7 +143,7 @@ public class EntityPassengerB80DTail extends EntityRollingStock implements IPass
 
     @Override
     public float[] getHitboxSize() {
-        return new float[]{4.3f,1.5f,1.0f};
+        return new float[]{4.5f,1.5f,1.0f};
     }
 
     @Override

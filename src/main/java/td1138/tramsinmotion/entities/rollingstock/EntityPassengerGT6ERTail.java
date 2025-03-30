@@ -146,8 +146,7 @@ public class EntityPassengerGT6ERTail extends EntityRollingStock implements IPas
     public float[][] getRiderOffsets(){return new float[][]{{0.0f,0f, 0.0f}};}
 
     @Override
-    public float[] getHitboxSize() {
-        return new float[]{1.5f,1.5f,1.0f};
+    public float[] getHitboxSize() { return new float[]{3.4f,1.5f,1.0f};
     }
 
     @Override

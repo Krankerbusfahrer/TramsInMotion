@@ -113,8 +113,7 @@ public class EntityLocoElectricMGTKLoco extends ElectricTrain {
     public float[][] getRiderOffsets(){ return new float[][]{{0.0f,-0.1f,-0.0f}};}
 
     @Override
-    public float[] getHitboxSize() {
-        return new float[]{5.5f,1.5f,1f};
+    public float[] getHitboxSize() {return new float[]{4f,1.5f,1f};
     }
 
 

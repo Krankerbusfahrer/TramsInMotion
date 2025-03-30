@@ -115,7 +115,7 @@ public class EntityLocoElectricGT6ERLoco extends ElectricTrain {
 
     @Override
     public float[] getHitboxSize() {
-        return new float[]{1.5f,1.5f,1f};
+        return new float[]{3.8f,1.5f,1f};
     }
 
 

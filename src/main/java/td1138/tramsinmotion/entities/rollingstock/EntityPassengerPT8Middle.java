@@ -43,7 +43,7 @@ public class EntityPassengerPT8Middle extends EntityRollingStock implements IPas
      */
     @Override
     public float[] rotationPoints() {
-        return new float[]{1.55f, -1.7f};
+        return new float[]{1.25f, -1.25f};
     }
 
     @Override
@@ -143,7 +143,7 @@ public class EntityPassengerPT8Middle extends EntityRollingStock implements IPas
 
     @Override
     public float[] getHitboxSize() {
-        return new float[]{1.5f,1.5f,1.0f};
+        return new float[]{1.8f,1.5f,1.0f};
     }
 
     @Override
