@@ -8,7 +8,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.oredict.OreDictionary;
 import td1138.tramsinmotion.TramsInMotion;
 import td1138.tramsinmotion.library.TramsInMotionInfo;
-import td1138.tramsinmotion.models.trains.ModelB80DTail;
+import td1138.tramsinmotion.models.rollingstock.ModelB80DTail;
 import train.common.api.EntityRollingStock;
 import train.common.api.IPassenger;
 import train.common.items.ItemRollingStock;
@@ -55,6 +55,8 @@ public class EntityPassengerB80DTail extends EntityRollingStock implements IPass
     public void registerSkins(){
         SkinRegistry.addSkin(this.getClass(), TramsInMotionInfo.modID, "textures/trains/B80D_Red.png",new String[]{},
                 "Red", "Classic Rheinbahn Livery");
+        SkinRegistry.addSkin(this.getClass(), TramsInMotionInfo.modID, "textures/trains/B80D_Grey.png",new String[]{},
+                "Grey", "New Rheinbahn Livery");
     }
 
     @Override
