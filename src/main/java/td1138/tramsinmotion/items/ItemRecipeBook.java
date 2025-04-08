@@ -45,7 +45,7 @@ public class ItemRecipeBook extends Item {
     public void addInformation(ItemStack par1ItemStack, EntityPlayer par2EntityPlayer, List par3List, boolean par4) {
         par3List.add("§7Contains everything");
         par3List.add("§7you should know");
-        par3List.add("§7about B.I.P.");
+        par3List.add("§7about TramsIM");
     }
 
     @SideOnly(Side.CLIENT)

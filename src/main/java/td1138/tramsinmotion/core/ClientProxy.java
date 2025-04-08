@@ -1,5 +1,8 @@
 package td1138.tramsinmotion.core;
 
+import cpw.mods.fml.client.registry.ClientRegistry;
+import net.minecraft.item.Item;
+import net.minecraftforge.client.MinecraftForgeClient;
 import td1138.tramsinmotion.core.handlers.RecipeBookHandler;
 import td1138.tramsinmotion.gui.GuiRecipeBook;
 import net.minecraft.client.Minecraft;
@@ -8,7 +11,12 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
+import td1138.tramsinmotion.library.BlockIDs;
 import td1138.tramsinmotion.library.GuiIDs;
+import td1138.tramsinmotion.models.render.ItemRenderCenteredPole;
+import td1138.tramsinmotion.models.render.RenderCenteredPole;
+import td1138.tramsinmotion.tile.poles.TileCenteredPole;
+
 
 import java.util.Calendar;
 
@@ -65,6 +73,20 @@ public class ClientProxy extends CommonProxy {
     @Override
     public void registerBookHandler() {
         RecipeBookHandler recipeBookHandler = new RecipeBookHandler();
+    }
+
+    //@Override
+
+    public void registerTileEntities() {
+
+        ClientRegistry.bindTileEntitySpecialRenderer(TileCenteredPole.class, new RenderCenteredPole());
+        MinecraftForgeClient.registerItemRenderer(Item.getItemFromBlock(BlockIDs.CenteredPole.block), new ItemRenderCenteredPole());
+    }
+
+    @Override
+    public void registerRenderInformation() {
+        ClientRegistry.bindTileEntitySpecialRenderer(TileCenteredPole.class, new RenderCenteredPole());
+        MinecraftForgeClient.registerItemRenderer(Item.getItemFromBlock(BlockIDs.CenteredPole.block), new ItemRenderCenteredPole());
     }
 
 }

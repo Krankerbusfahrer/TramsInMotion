@@ -1,9 +1,21 @@
 package td1138.tramsinmotion.core;
 
+import cpw.mods.fml.client.registry.ClientRegistry;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.network.IGuiHandler;
 import net.minecraft.client.gui.GuiScreen;
+import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.Item;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
+import net.minecraftforge.client.MinecraftForgeClient;
+import org.lwjgl.opengl.GL11;
+import td1138.tramsinmotion.library.BlockIDs;
+import td1138.tramsinmotion.models.render.ItemRenderCenteredPole;
+import td1138.tramsinmotion.models.render.RenderCenteredPole;
+import td1138.tramsinmotion.tile.poles.TileCenteredPole;
 
 public class CommonProxy implements IGuiHandler {
     @Override
@@ -27,4 +39,29 @@ public class CommonProxy implements IGuiHandler {
     }
 
     public void registerBookHandler() {}
-}
+
+    public void registerRenderInformation() {
+        ClientRegistry.bindTileEntitySpecialRenderer(TileCenteredPole.class, new RenderCenteredPole());
+        MinecraftForgeClient.registerItemRenderer(Item.getItemFromBlock(BlockIDs.CenteredPole.block), new ItemRenderCenteredPole());
+    }
+    
+    public static final TileEntitySpecialRenderer specialRenderer = new TileEntitySpecialRenderer() {
+        @Override
+        public void renderTileEntityAt(TileEntity tileEntity, double x, double y, double z, float p_1475008) {
+            GL11.glPushMatrix();
+            GL11.glTranslated(x,y, z);
+            tileEntity.func_145828_a(null);
+            GL11.glPopMatrix();
+        }
+
+        
+        @Override
+        protected void bindTexture(ResourceLocation p_1474991){}
+    };
+    public void registerTileEntities() {
+    }
+
+    public void registerEvents(FMLInitializationEvent event) {
+    }
+};
+

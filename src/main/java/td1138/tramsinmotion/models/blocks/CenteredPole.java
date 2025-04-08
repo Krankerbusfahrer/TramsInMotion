@@ -7,7 +7,7 @@
 // Created on: 28.11.2024 - 12:18:57
 // Last changed on: 28.11.2024 - 12:18:57
 
-package td1138.tramsinmotion.blocks; //Path where the model is located
+package td1138.tramsinmotion.models.blocks; //Path where the model is located
 
 import fexcraft.tmt.slim.ModelConverter;
 import fexcraft.tmt.slim.ModelRendererTurbo;

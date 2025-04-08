@@ -4,7 +4,7 @@
 
 <!-- Items -->
 
-item.bipRecipeBook.name=BIP Recipe Book
+item.bipRecipeBook.name=TramsIM Recipe Book
 item.Duewag GT6ER Loco.name=Duewag GT6ER Loco
 item.Duewag GT6ER Tail.name=Duewag GT6ER Tail
 item.PT8 Loco.name=PT8 Loco
@@ -13,6 +13,7 @@ item.MGT-K Loco.name=MGT-K Loco
 item.MGT-K Tail.name=MGT-K Tail
 item.B80D Loco.name=B80D Loco
 item.B80D Tail.name=B80D Tail
+item.CenteredPole.name=Centered Pole
 
 
 <!-- Entities -->
@@ -25,6 +26,7 @@ entity.tc.MGTKLoco.name=MGT-K Loco
 entity.tc.MGTKTail.name=MGT-K Tail
 entity.tc.B80DLoco.name=B80D Loco
 entity.tc.B80DTail.name=B80D Tail
+entity.tc.CenteredPole.name=CenteredPole
 
 <!-- ## GUI ## -->
 menu.item.country=Country

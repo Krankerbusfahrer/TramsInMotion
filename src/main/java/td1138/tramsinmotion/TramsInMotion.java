@@ -5,15 +5,20 @@ import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.network.NetworkRegistry;
+import cpw.mods.fml.common.registry.GameRegistry;
 import td1138.tramsinmotion.core.CommonProxy;
 import td1138.tramsinmotion.entities.rollingstock.*;
 import td1138.tramsinmotion.entities.trains.*;
 import td1138.tramsinmotion.items.TramsInMotiontems;
 import td1138.tramsinmotion.library.TramsInMotionInfo;
 import td1138.tramsinmotion.recipes.TramsInMotiontemsRecipeHandler;
+import td1138.tramsinmotion.tile.poles.TileCenteredPole;
 import train.common.api.AbstractTrains;
+import train.common.blocks.TCBlocks;
 import train.common.core.CreativeTabTraincraft;
 import train.common.core.handlers.CraftingHandler;
+import train.common.core.handlers.PacketHandler;
+import train.common.items.TCItems;
 import train.common.library.TraincraftRegistry;
 
 @Mod(modid = TramsInMotionInfo.modID, version = TramsInMotionInfo.modVersion, name = TramsInMotionInfo.modName ,dependencies = "required-after:tc")
@@ -40,13 +45,21 @@ public class TramsInMotion {
 		TraincraftRegistry.registerTransports("", listDieselTrains());
 		TraincraftRegistry.registerTransports("", listTender());
 
+
 		TramsInMotiontems.init();
 		TramsInMotiontemsRecipeHandler.init();
+		TCBlocks.init();
+		TCItems.init();
 
 		/* GUI handler initiation */
 		NetworkRegistry.INSTANCE.registerGuiHandler(instance, proxy);
 		FMLCommonHandler.instance().bus().register(new CraftingHandler());
-
+		proxy.registerTileEntities();
+		GameRegistry.registerTileEntity(TileCenteredPole.class, "TileCenteredPole");
+		proxy.registerBookHandler();
+		PacketHandler.init();
+		proxy.registerRenderInformation();
+		proxy.registerEvents(event);
 	}
 
 
