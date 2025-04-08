@@ -33,6 +33,10 @@ public class CenteredPole extends BlockContainer {
 		setCreativeTab(Traincraft.tcTab);
 	}
 
+	public CenteredPole(Object o, int i, int i1, int i2, int i3, int i4, float v) {
+		super(null);
+	}
+
 	@Override
 	public boolean renderAsNormalBlock() {
 		return false;
