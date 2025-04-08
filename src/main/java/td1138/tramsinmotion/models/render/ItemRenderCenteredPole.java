@@ -5,12 +5,12 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.IItemRenderer;
 import org.lwjgl.opengl.GL11;
 import fexcraft.tmt.slim.Tessellator;
-import td1138.tramsinmotion.blocks.CenteredPole;
+import td1138.tramsinmotion.blocks.BlockCenteredPole;
 import td1138.tramsinmotion.library.TramsInMotionInfo;
 import train.common.library.Info;
 
 public class ItemRenderCenteredPole implements IItemRenderer {
-    private static final CenteredPole modeSwitch = new CenteredPole();
+    private static final BlockCenteredPole modeSwitch = new BlockCenteredPole();
     private static final ResourceLocation texture = new ResourceLocation(TramsInMotionInfo.resourceLocation,TramsInMotionInfo.modelTexPrefix + "Tram_Double_Pole.png");
 
     public ItemRenderCenteredPole() {
@@ -60,7 +60,7 @@ public class ItemRenderCenteredPole implements IItemRenderer {
         GL11.glRotated(180,0,0,1);
         GL11.glRotated(180,0,1,0);
 
-        new CenteredPole(null,0,0,0,0,0,0.0625f);
+        BlockCenteredPole(null,0,0,0,0,0,0.0625f);
 
         GL11.glEnable(GL11.GL_LIGHTING);
         GL11.glPopMatrix();
