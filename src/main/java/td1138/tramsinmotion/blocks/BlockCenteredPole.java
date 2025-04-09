@@ -35,6 +35,10 @@ public class BlockCenteredPole extends BlockContainer {
         return 1;
     }
 
+    @Override
+    public boolean renderAsNormalBlock() {
+        return false;
+    }
 
     @Override
     public void onBlockAdded(World world, int i, int j, int k) {
@@ -51,6 +55,17 @@ public class BlockCenteredPole extends BlockContainer {
             te.setFacing(ForgeDirection.getOrientation(dir == 0 ? 2 : dir == 1 ? 5 : dir == 2 ? 3 : 4));
             world.markBlockForUpdate(i, j, k);
         }
+    }
+
+    @Override
+    public boolean isOpaqueCube() {
+        return false;
+    }
+
+    @Override
+
+    public int getRenderType (){
+        return -1;
     }
 
     @Override

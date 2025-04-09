@@ -18,8 +18,6 @@ public enum BlockIDs {
 
 	CenteredPole(true, ItemCenteredPole.class),
 
-
-
 	;
 
 	public Block block;
