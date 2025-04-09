@@ -1,7 +1,9 @@
 package td1138.tramsinmotion.core;
 
 import cpw.mods.fml.client.registry.ClientRegistry;
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.IGuiHandler;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
@@ -11,11 +13,16 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 import net.minecraftforge.client.MinecraftForgeClient;
+import net.minecraftforge.common.ForgeChunkManager;
+import net.minecraftforge.common.MinecraftForge;
 import org.lwjgl.opengl.GL11;
 import td1138.tramsinmotion.library.BlockIDs;
 import td1138.tramsinmotion.models.render.ItemRenderCenteredPole;
 import td1138.tramsinmotion.models.render.RenderCenteredPole;
 import td1138.tramsinmotion.tile.poles.TileCenteredPole;
+import train.common.Traincraft;
+import train.common.core.handlers.ChunkEvents;
+import train.common.core.handlers.WorldEvents;
 
 public class CommonProxy implements IGuiHandler {
     @Override
@@ -61,7 +68,17 @@ public class CommonProxy implements IGuiHandler {
     public void registerTileEntities() {
     }
 
-    public void registerEvents(FMLInitializationEvent event) {
+    public void registerEvents(FMLPreInitializationEvent event) {
+        WorldEvents worldEvents = new WorldEvents();
+        ChunkEvents chunkEvents = new ChunkEvents();
+
+        registerEvent(worldEvents);
+        registerEvent(chunkEvents);
+        ForgeChunkManager.setForcedChunkLoadingCallback(Traincraft.instance, chunkEvents);
+    }
+    public void registerEvent(Object o) {
+        FMLCommonHandler.instance().bus().register(o);
+        MinecraftForge.EVENT_BUS.register(o);
     }
 };
 

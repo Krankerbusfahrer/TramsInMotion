@@ -32,7 +32,12 @@ public class ItemRenderCenteredPole implements IItemRenderer {
     public void renderItem(IItemRenderer.ItemRenderType type, ItemStack item, Object... data) {
         switch (type) {
             case ENTITY:
+                RenderCenteredPole(0.2f, 1f, 1f);
+                return;
             case EQUIPPED:
+                RenderCenteredPole(0.2f, 1f, 1f);
+                return;
+
             case EQUIPPED_FIRST_PERSON: {
                 RenderCenteredPole(0.2f, 1f, 1f);
                 return;

@@ -3,7 +3,7 @@ package td1138.tramsinmotion;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
-import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 import td1138.tramsinmotion.core.CommonProxy;
@@ -34,7 +34,7 @@ public class TramsInMotion {
 	public static CommonProxy proxy;
 
 	@Mod.EventHandler
-	public void init(FMLInitializationEvent event) {
+	public void init(FMLPreInitializationEvent event) {
 
 		tabTramsInMotion = new CreativeTabTraincraft("Trams In Motion", TramsInMotionInfo.modID, "trains/timLogo");
 		TraincraftRegistry.registerTransports("", listSteamTrains());
