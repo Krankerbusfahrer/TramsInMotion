@@ -12,7 +12,7 @@ import train.common.api.IItemIDs;
 
 public enum ItemIDs implements IItemIDs {
 
-	CenteredPole("ItemCenteredPole", "CenteredPole", 1),
+	CenteredPole("ItemCenteredPole", "ModelCenteredPole", 1),
 
 	;
 

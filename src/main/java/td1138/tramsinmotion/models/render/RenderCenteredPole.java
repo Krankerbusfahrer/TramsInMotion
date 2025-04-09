@@ -11,14 +11,14 @@ import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.ResourceLocation;
 import org.lwjgl.opengl.GL11;
-import td1138.tramsinmotion.blocks.BlockCenteredPole;
 import td1138.tramsinmotion.library.TramsInMotionInfo;
+import td1138.tramsinmotion.models.blocks.ModelCenteredPole;
 import td1138.tramsinmotion.tile.poles.TileCenteredPole;
 
 
 public class RenderCenteredPole extends TileEntitySpecialRenderer {
 
-    private static final BlockCenteredPole CenteredPole = new BlockCenteredPole();
+    private static final ModelCenteredPole modelCenteredPole = new ModelCenteredPole();
     private static final ResourceLocation texture = new ResourceLocation(TramsInMotionInfo.resourceLocation, TramsInMotionInfo.modelTexPrefix + "Tram_Double_Pole.png");
 
     public RenderCenteredPole() {
@@ -69,7 +69,7 @@ public class RenderCenteredPole extends TileEntitySpecialRenderer {
         }
 
 
-        CenteredPole.render(null, 0, 0, 0, 0, 0, 0.0605f);
+        modelCenteredPole.render();
 
         GL11.glPopMatrix();
     }

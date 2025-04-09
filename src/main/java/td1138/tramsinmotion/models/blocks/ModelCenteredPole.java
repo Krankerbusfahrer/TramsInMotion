@@ -12,12 +12,12 @@ package td1138.tramsinmotion.models.blocks; //Path where the model is located
 import fexcraft.tmt.slim.ModelConverter;
 import fexcraft.tmt.slim.ModelRendererTurbo;
 
-public class CenteredPole extends ModelConverter //Same as Filename
+public class ModelCenteredPole extends ModelConverter //Same as Filename
 {
 	int textureX = 512;
 	int textureY = 64;
 
-	public CenteredPole() //Same as Filename
+	public ModelCenteredPole() //Same as Filename
 	{
 		bodyModel = new ModelRendererTurbo[36];
 
