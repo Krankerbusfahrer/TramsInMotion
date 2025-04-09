@@ -16,8 +16,7 @@ import train.common.items.slabs.*;
 
 public enum BlockIDs {
 
-	CenteredPole(false, ItemCenteredPole.class),
-//	metroMadridPole(false, null),
+	CenteredPole(true, ItemCenteredPole.class),
 
 
 

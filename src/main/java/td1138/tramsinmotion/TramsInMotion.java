@@ -6,6 +6,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
+import td1138.tramsinmotion.blocks.TramsIMBlocks;
 import td1138.tramsinmotion.core.CommonProxy;
 import td1138.tramsinmotion.entities.rollingstock.*;
 import td1138.tramsinmotion.entities.trains.*;
@@ -48,8 +49,7 @@ public class TramsInMotion {
 
 		TramsInMotiontems.init();
 		TramsInMotiontemsRecipeHandler.init();
-		TCBlocks.init();
-		TCItems.init();
+		TramsIMBlocks.init();
 
 		/* GUI handler initiation */
 		NetworkRegistry.INSTANCE.registerGuiHandler(instance, proxy);

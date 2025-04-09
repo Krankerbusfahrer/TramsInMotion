@@ -10,10 +10,8 @@ package td1138.tramsinmotion.blocks;
 import net.minecraft.block.material.Material;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
+import td1138.tramsinmotion.library.BlockIDs;
 import td1138.tramsinmotion.library.TramsInMotionInfo;
-import train.common.Traincraft;
-import train.common.library.BlockIDs;
-import train.common.library.TraincraftRegistry;
 
 public class TramsIMBlocks {
 
@@ -27,14 +25,14 @@ public class TramsIMBlocks {
 
 
 	public static void loadBlocks() {
-		TraincraftRegistry.registerBlock(CenteredPole, Traincraft.tcTab, TramsInMotionInfo.modID,"centeredpole");
+		BlockIDs.CenteredPole.block = new BlockCenteredPole (Material.iron);
 
 
 
 	}
 
 	public static void registerBlocks() {
-		for (BlockIDs blocks : BlockIDs.values()) {
+		for (BlockIDs blocks : td1138.tramsinmotion.library.BlockIDs.values()) {
 			if(blocks.block != null) {
 				blocks.block.setBlockName(TramsInMotionInfo.modID + ":" + blocks.name());
 				if (blocks.hasItemBlock) {

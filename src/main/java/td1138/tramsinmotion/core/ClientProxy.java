@@ -1,8 +1,12 @@
 package td1138.tramsinmotion.core;
 
 import cpw.mods.fml.client.registry.ClientRegistry;
+import net.minecraft.client.renderer.entity.Render;
+import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.item.Item;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.MinecraftForgeClient;
+import org.lwjgl.opengl.GL11;
 import td1138.tramsinmotion.core.handlers.RecipeBookHandler;
 import td1138.tramsinmotion.gui.GuiRecipeBook;
 import net.minecraft.client.Minecraft;
@@ -64,6 +68,32 @@ public class ClientProxy extends CommonProxy {
                 return null;
         }
     }
+
+    @Override
+    public Object getTESR(){return specialRenderer;}
+
+    public static final TileEntitySpecialRenderer specialRenderer = new TileEntitySpecialRenderer() {
+        @Override
+        public void renderTileEntityAt(TileEntity tileEntity, double x, double y, double z, float p_1475008) {
+            GL11.glPushMatrix();
+            GL11.glTranslated(x,y, z);
+            tileEntity.func_145828_a(null);
+            GL11.glPopMatrix();
+        }
+
+        @Override
+        protected void bindTexture(ResourceLocation p_1474991){}
+    };
+
+    private static final Render nullRender = new Render() {
+        @Override
+        public void doRender(Entity p_769861, double p_769862, double p_769864, double p_769866, float p_769868, float p_769869) {}
+
+        @Override
+        protected ResourceLocation getEntityTexture(Entity p_1107751) {
+            return null;
+        }
+    };
 
     @Override
     public GuiScreen getCurrentScreen() {

@@ -49,7 +49,7 @@ public class CommonProxy implements IGuiHandler {
 
     public void registerRenderInformation() {
         ClientRegistry.bindTileEntitySpecialRenderer(TileCenteredPole.class, new RenderCenteredPole());
-        MinecraftForgeClient.registerItemRenderer(Item.getItemFromBlock(BlockIDs.CenteredPole.block), new ItemRenderCenteredPole());
+        MinecraftForgeClient.registerItemRenderer(Item.getItemFromBlock(td1138.tramsinmotion.library.BlockIDs.CenteredPole.block), new ItemRenderCenteredPole());
     }
     
     public static final TileEntitySpecialRenderer specialRenderer = new TileEntitySpecialRenderer() {

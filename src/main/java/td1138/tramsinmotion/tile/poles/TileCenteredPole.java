@@ -6,6 +6,7 @@ import net.minecraft.block.Block;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.AxisAlignedBB;
 import td1138.tramsinmotion.blocks.BlockCenteredPole;
 import td1138.tramsinmotion.library.BlockIDs;
@@ -18,9 +19,6 @@ public class TileCenteredPole extends TileTraincraft {
 
     public TileCenteredPole(){
 
-    }
-    public TileCenteredPole(BlockCenteredPole block ){
-        host = block;
     }
 
     private int updateTicks = 0;

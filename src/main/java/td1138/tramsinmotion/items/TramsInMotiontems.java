@@ -11,7 +11,7 @@ import net.minecraft.item.Item;
 import td1138.tramsinmotion.TramsInMotion;
 import td1138.tramsinmotion.library.ItemIDs;
 import td1138.tramsinmotion.library.TramsInMotionInfo;
-import train.common.library.TraincraftRegistry;
+import train.common.library.*;
 
 public class TramsInMotiontems {
 
