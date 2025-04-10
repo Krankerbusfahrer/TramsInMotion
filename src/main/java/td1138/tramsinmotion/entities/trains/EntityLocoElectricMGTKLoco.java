@@ -77,8 +77,8 @@ public class EntityLocoElectricMGTKLoco extends ElectricTrain {
 
     @Override
     public void registerSkins(){
-        SkinRegistry.addSkin(this.getClass(), TramsInMotionInfo.modID, "textures/trains/MGT_K_Grey.png",new String[]{},
-                "Grey", "Standard HAVAG Livery");
+        SkinRegistry.addSkin(this.getClass(), TramsInMotionInfo.modID, "textures/trains/MGT_K_Gray.png",new String[]{},
+                "Gray", "Standard HAVAG Livery");
     }
 
     /**

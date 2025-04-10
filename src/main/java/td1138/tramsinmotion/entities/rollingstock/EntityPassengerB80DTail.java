@@ -55,8 +55,8 @@ public class EntityPassengerB80DTail extends EntityRollingStock implements IPass
     public void registerSkins(){
         SkinRegistry.addSkin(this.getClass(), TramsInMotionInfo.modID, "textures/trains/B80D_Red.png",new String[]{},
                 "Red", "Classic Rheinbahn Livery");
-        SkinRegistry.addSkin(this.getClass(), TramsInMotionInfo.modID, "textures/trains/B80D_Grey.png",new String[]{},
-                "Grey", "New Rheinbahn Livery");
+        SkinRegistry.addSkin(this.getClass(), TramsInMotionInfo.modID, "textures/trains/B80D_Gray.png",new String[]{},
+                "Gray", "New Rheinbahn Livery");
     }
 
     @Override
