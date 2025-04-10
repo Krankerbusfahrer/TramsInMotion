@@ -13,6 +13,7 @@ import train.common.api.IItemIDs;
 public enum ItemIDs implements IItemIDs {
 
 	CenteredPole("ItemCenteredPole", "ModelCenteredPole", 1),
+	LFPlatformFenced("ItemLFPlatformFenced", "ModelLFPlatformFenced", 1),
 
 	;
 

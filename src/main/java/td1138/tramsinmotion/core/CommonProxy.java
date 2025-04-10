@@ -18,8 +18,11 @@ import net.minecraftforge.common.MinecraftForge;
 import org.lwjgl.opengl.GL11;
 import td1138.tramsinmotion.library.BlockIDs;
 import td1138.tramsinmotion.models.render.ItemRenderCenteredPole;
+import td1138.tramsinmotion.models.render.ItemRenderLFPlatformFenced;
 import td1138.tramsinmotion.models.render.RenderCenteredPole;
+import td1138.tramsinmotion.models.render.RenderLFPlatformFenced;
 import td1138.tramsinmotion.tile.poles.TileCenteredPole;
+import td1138.tramsinmotion.tile.poles.TileLFPlatformFenced;
 import train.common.Traincraft;
 import train.common.core.handlers.ChunkEvents;
 import train.common.core.handlers.WorldEvents;
@@ -50,6 +53,9 @@ public class CommonProxy implements IGuiHandler {
     public void registerRenderInformation() {
         ClientRegistry.bindTileEntitySpecialRenderer(TileCenteredPole.class, new RenderCenteredPole());
         MinecraftForgeClient.registerItemRenderer(Item.getItemFromBlock(td1138.tramsinmotion.library.BlockIDs.CenteredPole.block), new ItemRenderCenteredPole());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileLFPlatformFenced.class, new RenderLFPlatformFenced());
+        MinecraftForgeClient.registerItemRenderer(Item.getItemFromBlock(BlockIDs.LFPlatformFenced.block), new ItemRenderLFPlatformFenced());
+
     }
     
     public static final TileEntitySpecialRenderer specialRenderer = new TileEntitySpecialRenderer() {

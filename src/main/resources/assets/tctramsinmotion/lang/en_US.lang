@@ -14,7 +14,7 @@ item.MGT-K Tail.name=MGT-K Tail
 item.B80D Loco.name=B80D Loco
 item.B80D Tail.name=B80D Tail
 item.CenteredPole.name=Centered Pole
-
+item.LFPlatformFenced.name=LF Platform Fenced
 
 <!-- Entities -->
 entity.tc.BIPRecipeBook.name=BIP Recipe Book
@@ -27,6 +27,7 @@ entity.tc.MGTKTail.name=MGT-K Tail
 entity.tc.B80DLoco.name=B80D Loco
 entity.tc.B80DTail.name=B80D Tail
 entity.tc.CenteredPole.name=CenteredPole
+entity.tc.LFPlatformFenced.name=LF Platform Fenced
 
 <!-- ## GUI ## -->
 menu.item.country=Country
