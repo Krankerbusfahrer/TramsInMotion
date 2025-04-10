@@ -14,6 +14,7 @@ import td1138.tramsinmotion.items.TramsInMotiontems;
 import td1138.tramsinmotion.library.TramsInMotionInfo;
 import td1138.tramsinmotion.recipes.TramsInMotiontemsRecipeHandler;
 import td1138.tramsinmotion.tile.poles.TileCenteredPole;
+import td1138.tramsinmotion.tile.poles.TileLFPlatformFenced;
 import train.common.api.AbstractTrains;
 import train.common.blocks.TCBlocks;
 import train.common.core.CreativeTabTraincraft;
@@ -56,6 +57,7 @@ public class TramsInMotion {
 		FMLCommonHandler.instance().bus().register(new CraftingHandler());
 		proxy.registerTileEntities();
 		GameRegistry.registerTileEntity(TileCenteredPole.class, "TileCenteredPole");
+		GameRegistry.registerTileEntity(TileLFPlatformFenced.class, "TileLFPlatformFenced");
 		proxy.registerBookHandler();
 		PacketHandler.init();
 		proxy.registerRenderInformation();

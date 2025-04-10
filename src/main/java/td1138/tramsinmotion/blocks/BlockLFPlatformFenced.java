@@ -14,10 +14,10 @@ import train.common.api.blocks.BlockDynamic;
 
 import java.util.Random;
 
-public class BlockLFPlatformFenced extends BlockDynamic {
+public class BlockLFPlatformFenced extends BlockContainer {
 
     public BlockLFPlatformFenced(Material material) {
-        super(material.iron,0);
+        super(material.iron);
         setCreativeTab(TramsInMotion.tabTramsInMotion);
         setHarvestLevel("axe", 0);
     }
@@ -65,8 +65,11 @@ public class BlockLFPlatformFenced extends BlockDynamic {
         return -1;
     }
 
+
     @Override
-    public float[] hitboxShape(){return new float[]{1f,0,1f,1f,0.25f,1f};}
+    public boolean hasTileEntity(int metadata) {
+        return true;
+    }
 
     @Override
     public TileEntity createNewTileEntity(World var1, int meta) {
