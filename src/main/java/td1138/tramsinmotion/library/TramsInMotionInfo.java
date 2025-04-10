@@ -18,5 +18,5 @@ public class TramsInMotionInfo {
 	public static final String bookPrefix = "textures/gui/book/";
 
 	public static final String trainsPrefix = "textures/trains/";
-	public static final String modelTexPrefix = "textures/models/";
+	public static final String modelTexPrefix = "textures/blocks/";
 }
