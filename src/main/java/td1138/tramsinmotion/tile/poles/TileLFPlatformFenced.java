@@ -6,13 +6,15 @@ import net.minecraft.block.Block;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.AxisAlignedBB;
+import net.minecraftforge.common.util.ForgeDirection;
 import td1138.tramsinmotion.library.BlockIDs;
-import train.common.api.blocks.TileTraincraft;
+import train.common.api.blocks.TileRenderFacing;
 
 import java.util.Random;
 
-public class TileLFPlatformFenced extends TileTraincraft {
+public class TileLFPlatformFenced extends TileRenderFacing {
 
     public TileLFPlatformFenced(){
 
@@ -52,5 +54,16 @@ public class TileLFPlatformFenced extends TileTraincraft {
     @Override
     public AxisAlignedBB getRenderBoundingBox() {
         return AxisAlignedBB.getBoundingBox(xCoord - 1, yCoord - 1, zCoord - 1, xCoord + 2, yCoord + 2, zCoord + 2);
+    }
+
+    @Override
+    public void readFromNBT(NBTTagCompound nbtTag) {
+
+        super.readFromNBT(nbtTag);
+    }
+
+    @Override
+    public void writeToNBT(NBTTagCompound nbtTag) {
+        super.writeToNBT(nbtTag);
     }
 }

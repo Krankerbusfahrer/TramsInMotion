@@ -19,6 +19,7 @@ public class BlockLFPlatformFenced extends BlockContainer {
     public BlockLFPlatformFenced(Material material) {
         super(material.iron);
         setCreativeTab(TramsInMotion.tabTramsInMotion);
+        setBlockBounds(0.0F, 0.0F, 0.0F, 1F, 0.25F, 1F);
         setHarvestLevel("axe", 0);
     }
 

@@ -22,6 +22,7 @@ public class BlockCenteredPole extends BlockContainer {
     public BlockCenteredPole(Material material) {
         super(material.iron);
         setCreativeTab(TramsInMotion.tabTramsInMotion);
+        setBlockBounds(0.3F, 0.0F, 0.3F, 0.7F, 3F, 0.7F);
         setHarvestLevel("axe", 0);
     }
 
