@@ -23,11 +23,12 @@ public class TramsIMBlocks {
 
 	public static Block CenteredPole=new BlockCenteredPole(Material.iron ).setHardness(3.5F).setStepSound(Block.soundTypeMetal);
 	public static Block LFPlatformFenced=new BlockLFPlatformFenced(Material.iron ).setHardness(3.5F).setStepSound(Block.soundTypeMetal);
+	public static Block LFPlatformShelter=new BlockLFPlatformShelter(Material.iron ).setHardness(3.5F).setStepSound(Block.soundTypeMetal);
 
 	public static void loadBlocks() {
 		BlockIDs.CenteredPole.block = new BlockCenteredPole (Material.iron);
 		BlockIDs.LFPlatformFenced.block = new BlockLFPlatformFenced (Material.iron);
-
+		BlockIDs.LFPlatformShelter.block = new BlockLFPlatformShelter (Material.iron);
 
 
 	}
@@ -48,6 +49,7 @@ public class TramsIMBlocks {
 	public static void setHarvestLevels() {
 		TramsIMBlocks.CenteredPole.setHarvestLevel("axe", 0);
 		TramsIMBlocks.LFPlatformFenced.setHarvestLevel("axe", 0);
+		TramsIMBlocks.LFPlatformShelter.setHarvestLevel("axe", 0);
 
 	}
 }

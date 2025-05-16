@@ -26,6 +26,7 @@ entity.tc.B80DLoco.name=B80D Loco
 entity.tc.B80DTail.name=B80D Tail
 entity.tc.CenteredPole.name=Centered Pole
 entity.tc.LFPlatformFenced.name=LF Platform Fenced
+entity.tc.LFPlatformShelter.name=LF Platform Shelter
 
 <!-- ## GUI ## -->
 menu.item.country=Country
@@ -67,3 +68,4 @@ key.traincraft.furnace=Furnace
 
 tile.tctramsinmotion:CenteredPole.name=Centered Pole
 tile.tctramsinmotion:LFPlatformFenced.name=LF Platform Fenced
+tile.tctramsinmotion:LFPlatformShelter.name=LF Platform Shelter

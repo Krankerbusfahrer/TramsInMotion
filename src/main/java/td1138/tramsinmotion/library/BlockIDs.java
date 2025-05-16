@@ -11,6 +11,7 @@ import net.minecraft.block.Block;
 import net.minecraft.item.ItemBlock;
 import td1138.tramsinmotion.items.ItemCenteredPole;
 import td1138.tramsinmotion.items.ItemLFPlatformFenced;
+import td1138.tramsinmotion.items.ItemLFPlatformShelter;
 import train.common.items.*;
 import train.common.items.slabs.*;
 
@@ -19,6 +20,7 @@ public enum BlockIDs {
 
 	CenteredPole(true, ItemCenteredPole.class),
 	LFPlatformFenced(true, ItemLFPlatformFenced.class),
+	LFPlatformShelter(true, ItemLFPlatformShelter.class),
 
 	;
 

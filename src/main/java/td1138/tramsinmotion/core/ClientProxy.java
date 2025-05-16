@@ -17,12 +17,10 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
 import td1138.tramsinmotion.library.BlockIDs;
 import td1138.tramsinmotion.library.GuiIDs;
-import td1138.tramsinmotion.models.render.ItemRenderCenteredPole;
-import td1138.tramsinmotion.models.render.ItemRenderLFPlatformFenced;
-import td1138.tramsinmotion.models.render.RenderCenteredPole;
-import td1138.tramsinmotion.models.render.RenderLFPlatformFenced;
+import td1138.tramsinmotion.models.render.*;
 import td1138.tramsinmotion.tile.poles.TileCenteredPole;
 import td1138.tramsinmotion.tile.poles.TileLFPlatformFenced;
+import td1138.tramsinmotion.tile.poles.TileLFPlatformShelter;
 
 
 import java.util.Calendar;
@@ -116,6 +114,9 @@ public class ClientProxy extends CommonProxy {
         MinecraftForgeClient.registerItemRenderer(Item.getItemFromBlock(BlockIDs.CenteredPole.block), new ItemRenderCenteredPole());
         ClientRegistry.bindTileEntitySpecialRenderer(TileLFPlatformFenced.class, new RenderLFPlatformFenced());
         MinecraftForgeClient.registerItemRenderer(Item.getItemFromBlock(BlockIDs.LFPlatformFenced.block), new ItemRenderLFPlatformFenced());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileLFPlatformShelter.class, new RenderLFPlatformShelter());
+        MinecraftForgeClient.registerItemRenderer(Item.getItemFromBlock(BlockIDs.LFPlatformShelter.block), new ItemRenderLFPlatformShelter());
+
     }
 
     @Override
