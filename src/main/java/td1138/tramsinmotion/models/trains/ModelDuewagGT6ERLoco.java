@@ -498,7 +498,7 @@ public class ModelDuewagGT6ERLoco extends ModelConverter //Same as Filename
 		bodyModel[3].addShapeBox(0F, 0F, 0F, 1, 2, 14, 0F,0F, -0.5F, -1.25F, 0F, -0.2F, 0.25F, 0F, -0.2F, 0.25F, 0F, -0.5F, -1.25F, 0.3F, 0F, 0.35F, 0F, 0F, 1.05F, 0F, 0F, 1.05F, 0.3F, 0F, 0.25F); // Box 66
 		bodyModel[3].setRotationPoint(-27.5F, -18F, -7F);
 
-		bodyModel[4].addShapeBox(0F, 0F, 0F, 1, 1, 12, 0F,-0.35F, -0.3F, -1.75F, 0F, 0.5F, -0.2F, 0F, 0.5F, -0.25F, -0.35F, -0.3F, -1.75F, -0.3F, 0F, -0.75F, -0.3F, 0F, 1.35F, -0.3F, 0F, 1.25F, -0.3F, 0F, -0.75F); // Box 67
+		bodyModel[4].addShapeBox(0F, 0F, 0F, 1, 1, 12, 0F,-0.25F, -0.3F, -1.75F, 0F, 0.5F, -0.2F, 0F, 0.5F, -0.25F, -0.25F, -0.3F, -1.75F, -0.1F, 0F, -0.75F, -0.3F, 0F, 1.35F, -0.3F, 0F, 1.25F, -0.1F, 0F, -0.75F); // Box 67
 		bodyModel[4].setRotationPoint(-28.5F, -17F, -6F);
 
 		bodyModel[5].addShapeBox(0F, 0F, 0F, 2, 2, 2, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.5F, 0F, -0.5F, 0F, -0.3F, 0F, 0F, -0.3F, 0F, 0F, 0F, 0.1F, -0.5F, 0F, -0.4F); // Box 572
@@ -567,7 +567,7 @@ public class ModelDuewagGT6ERLoco extends ModelConverter //Same as Filename
 		bodyModel[26].addShapeBox(0F, 0F, 0F, 6, 1, 3, 0F,0F, 0F, 0F, 0F, 0F, -1F, 0F, 0F, 1F, 0F, 0F, -0.7F, 0F, 0F, 0F, 0F, 0F, -1F, 0F, 0F, 1F, 0F, 0F, -0.7F); // Box 183
 		bodyModel[26].setRotationPoint(-26.5F, 6F, 6F);
 
-		bodyModel[27].addShapeBox(0F, 0F, 0F, 2, 1, 10, 0F,-0.3F, -0.5F, -0.45F, 0F, 0F, 0F, 0F, 0F, 0F, -0.3F, -0.5F, 0.05F, -0.3F, 0.3F, -0.45F, 0.2F, 0.55F, 0F, 0.2F, 0.55F, 0.5F, -0.3F, 0.3F, 0.05F); // Box 161
+		bodyModel[27].addShapeBox(0F, 0F, 0F, 2, 1, 10, 0F,-0.1F, -0.5F, -0.45F, 0F, 0F, 0F, 0F, 0F, 0F, -0.1F, -0.5F, 0.05F, -0.1F, 0.3F, -0.45F, 0.2F, 0.55F, 0F, 0.2F, 0.55F, 0.5F, -0.1F, 0.3F, 0.05F); // Box 161
 		bodyModel[27].setRotationPoint(-28.5F, -14.1F, -5.25F);
 
 		bodyModel[28].addShapeBox(0F, 0F, 0F, 41, 1, 1, 0F,0F, 0F, 0.25F, 0F, 0F, 0.25F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F); // Box 139
@@ -598,10 +598,10 @@ public class ModelDuewagGT6ERLoco extends ModelConverter //Same as Filename
 		bodyModel[36].setRotationPoint(6.5F, 4F, 7F);
 
 		bodyModel[37].addShapeBox(0F, 0F, 0F, 1, 3, 3, 0F,0F, 0F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 2F, -1F, 0F, 2F, -1F, 0F, 0F, 0F, 0F); // Box 294
-		bodyModel[37].setRotationPoint(-28.19F, -19F, -1.5F);
+		bodyModel[37].setRotationPoint(-28.39F, -19F, -1.5F);
 
 		bodyModel[38].addShapeBox(0F, 0F, 0F, 1, 9, 9, 0F,0F, 0F, -6F, 0F, -0.3F, -6F, 0F, -0.3F, 0F, 0F, 0F, 0F, 0F, -6F, -6F, 0F, -6F, -6F, 0F, -6F, 0F, 0F, -6F, 0F); // Box 170 lamp
-		bodyModel[38].setRotationPoint(-28.2F, -19F, -7.5F);
+		bodyModel[38].setRotationPoint(-28.4F, -19F, -7.5F);
 
 		bodyModel[39].addShapeBox(0F, 0F, 0F, 6, 1, 1, 0F,0F, 0F, 0.3F, 0F, 0F, 0.5F, 0F, 0F, -0.2F, 0F, 0F, -0.3F, 0F, 0F, 0.3F, 0F, 0F, 0.5F, 0F, 0F, -0.5F, 0F, 0F, -0.3F); // Box 97
 		bodyModel[39].setRotationPoint(-20.5F, -16F, -9.5F);
@@ -682,64 +682,64 @@ public class ModelDuewagGT6ERLoco extends ModelConverter //Same as Filename
 		bodyModel[64].setRotationPoint(-23.5F, -4F, -2.5F);
 
 		bodyModel[65].addShapeBox(0F, 0F, 0F, 1, 1, 10, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F); // Box 8
-		bodyModel[65].setRotationPoint(-9F, -33.75F, -4.75F);
+		bodyModel[65].setRotationPoint(-9F, -34.75F, -4.75F);
 
 		bodyModel[66].addShapeBox(0F, 0F, 0F, 1, 1, 10, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F); // Box 9
-		bodyModel[66].setRotationPoint(-7F, -33.75F, -4.75F);
+		bodyModel[66].setRotationPoint(-7F, -34.75F, -4.75F);
 
 		bodyModel[67].addBox(0F, 0F, 0F, 3, 1, 1, 0F); // Box 10
-		bodyModel[67].setRotationPoint(-9F, -32.75F, -5F);
+		bodyModel[67].setRotationPoint(-9F, -33.75F, -5F);
 
 		bodyModel[68].addBox(0F, 0F, 0F, 3, 1, 1, 0F); // Box 11
-		bodyModel[68].setRotationPoint(-9F, -32.75F, 4F);
+		bodyModel[68].setRotationPoint(-9F, -33.75F, 4F);
 
 		bodyModel[69].addShapeBox(0F, 0F, 0F, 1, 1, 2, 0F,0F, -1.5F, 0F, 0F, -1.5F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.25F, 1F, 0F, -0.25F, 1F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F); // Box 12
-		bodyModel[69].setRotationPoint(-7F, -33.75F, -6.75F);
+		bodyModel[69].setRotationPoint(-7F, -34.75F, -6.75F);
 
 		bodyModel[70].addShapeBox(0F, 0F, 0F, 1, 1, 2, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, -1.5F, 0F, 0F, -1.5F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 1F, 0F, -0.25F, 1F, 0F); // Box 13
-		bodyModel[70].setRotationPoint(-9F, -33.75F, 5.25F);
+		bodyModel[70].setRotationPoint(-9F, -34.75F, 5.25F);
 
 		bodyModel[71].addShapeBox(0F, 0F, 0F, 1, 1, 2, 0F,0F, -1.5F, 0F, 0F, -1.5F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.25F, 1F, 0F, -0.25F, 1F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F); // Box 15
-		bodyModel[71].setRotationPoint(-9F, -33.75F, -6.75F);
+		bodyModel[71].setRotationPoint(-9F, -34.75F, -6.75F);
 
 		bodyModel[72].addShapeBox(0F, 0F, 0F, 5, 1, 1, 0F,0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F); // Box 19
-		bodyModel[72].setRotationPoint(-10F, -20F, -4.25F);
+		bodyModel[72].setRotationPoint(-10F, -21F, -4.25F);
 
 		bodyModel[73].addShapeBox(0F, 0F, 0F, 5, 1, 1, 0F,0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F); // Box 21
-		bodyModel[73].setRotationPoint(-10F, -20F, 3.25F);
+		bodyModel[73].setRotationPoint(-10F, -21F, 3.25F);
 
 		bodyModel[74].addShapeBox(0F, 0F, 0F, 1, 1, 2, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, -1.5F, 0F, 0F, -1.5F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 1F, 0F, -0.25F, 1F, 0F); // Box 24
-		bodyModel[74].setRotationPoint(-7F, -33.75F, 5.25F);
+		bodyModel[74].setRotationPoint(-7F, -34.75F, 5.25F);
 
 		bodyModel[75].addShapeBox(0F, 0F, 0F, 7, 1, 0, 0F,1F, 5F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 1F, 5F, 0F, 1F, -5F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 1F, -5F, 0F); // Box 124
-		bodyModel[75].setRotationPoint(-17F, -21F, -5F);
+		bodyModel[75].setRotationPoint(-17F, -22F, -5F);
 
 		bodyModel[76].addShapeBox(0F, 0F, 0F, 8, 1, 0, 0F,1F, -4F, 0F, 0F, 2F, 0F, 0F, 2F, 0F, 1F, -4F, 0F, 1F, 4F, 0F, 0F, -2F, 0F, 0F, -2F, 0F, 1F, 4F, 0F); // Box 125
-		bodyModel[76].setRotationPoint(-17F, -30.25F, -5F);
+		bodyModel[76].setRotationPoint(-17F, -31.25F, -5F);
 
 		bodyModel[77].addShapeBox(0F, 0F, 0F, 8, 1, 0, 0F,1F, -4F, 0F, 0F, 2F, 0F, 0F, 2F, 0F, 1F, -4F, 0F, 1F, 4F, 0F, 0F, -2F, 0F, 0F, -2F, 0F, 1F, 4F, 0F); // Box 127
-		bodyModel[77].setRotationPoint(-17F, -30.25F, 5F);
+		bodyModel[77].setRotationPoint(-17F, -31.25F, 5F);
 
 		bodyModel[78].addShapeBox(0F, 0F, 0F, 7, 1, 0, 0F,0F, 0F, 0F, 1F, 5F, 0F, 1F, 5F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 1F, -5F, 0F, 1F, -5F, 0F, 0F, 0F, 0F); // Box 128
-		bodyModel[78].setRotationPoint(-5F, -21F, 5F);
+		bodyModel[78].setRotationPoint(-5F, -22F, 5F);
 
 		bodyModel[79].addShapeBox(0F, 0F, 0F, 8, 1, 0, 0F,0F, 2F, 0F, 1F, -4F, 0F, 1F, -4F, 0F, 0F, 2F, 0F, 0F, -2F, 0F, 1F, 4F, 0F, 1F, 4F, 0F, 0F, -2F, 0F); // Box 129
-		bodyModel[79].setRotationPoint(-6F, -30.25F, 5F);
+		bodyModel[79].setRotationPoint(-6F, -31.25F, 5F);
 
 		bodyModel[80].addShapeBox(0F, 0F, 0F, 7, 1, 0, 0F,0F, 0F, 0F, 1F, 5F, 0F, 1F, 5F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 1F, -5F, 0F, 1F, -5F, 0F, 0F, 0F, 0F); // Box 130
-		bodyModel[80].setRotationPoint(-5F, -21F, -5F);
+		bodyModel[80].setRotationPoint(-5F, -22F, -5F);
 
 		bodyModel[81].addShapeBox(0F, 0F, 0F, 8, 1, 0, 0F,0F, 2F, 0F, 1F, -4F, 0F, 1F, -4F, 0F, 0F, 2F, 0F, 0F, -2F, 0F, 1F, 4F, 0F, 1F, 4F, 0F, 0F, -2F, 0F); // Box 131
-		bodyModel[81].setRotationPoint(-6F, -30.25F, -5F);
+		bodyModel[81].setRotationPoint(-6F, -31.25F, -5F);
 
 		bodyModel[82].addShapeBox(0F, 0F, 0F, 7, 1, 0, 0F,1F, 5F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 1F, 5F, 0F, 1F, -5F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 1F, -5F, 0F); // Box 126
-		bodyModel[82].setRotationPoint(-17F, -21F, 5F);
+		bodyModel[82].setRotationPoint(-17F, -22F, 5F);
 
 		bodyModel[83].addBox(0F, 0F, 0F, 1, 1, 10, 0F); // Box 449
-		bodyModel[83].setRotationPoint(-10F, -21F, -5F);
+		bodyModel[83].setRotationPoint(-10F, -22F, -5F);
 
 		bodyModel[84].addBox(0F, 0F, 0F, 1, 1, 10, 0F); // Box 450
-		bodyModel[84].setRotationPoint(-6F, -21F, -5F);
+		bodyModel[84].setRotationPoint(-6F, -22F, -5F);
 
 		bodyModel[85].addBox(0F, 0F, 0F, 3, 3, 6, 0F); // Box 385
 		bodyModel[85].setRotationPoint(-5F, 6F, -3F);
@@ -1051,7 +1051,7 @@ public class ModelDuewagGT6ERLoco extends ModelConverter //Same as Filename
 		bodyModel[187].setRotationPoint(-23F, -6F, -2.5F);
 
 		bodyModel[188].addShapeBox(0F, 0F, 0F, 1, 6, 23, 0F,0F, 0F, 0.15F, 0F, 0F, 0F, 0F, 0F, -13.5F, 0F, 0F, -13.15F, 0F, -4.2F, 0.15F, 0F, -4.2F, 0.05F, 0F, -4.2F, -13.5F, 0F, -4.2F, -13.15F); // Lamp
-		bodyModel[188].setRotationPoint(-28.1F, -15.4F, -4.75F);
+		bodyModel[188].setRotationPoint(-28.2F, -15.4F, -4.75F);
 
 		bodyModel[189].addShapeBox(0F, 0F, 0F, 29, 8, 1, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0.1F, 0F, 0F, 0.1F, 0F, 0.5F, 0.1F, 0F, 0.5F, 0.1F, 0F, 0.5F, 0.1F, 0F, 0.5F, 0.1F); // Box 333
 		bodyModel[189].setRotationPoint(-14.5F, -3.5F, -10.1F);
@@ -1059,16 +1059,16 @@ public class ModelDuewagGT6ERLoco extends ModelConverter //Same as Filename
 		bodyModel[190].addShapeBox(0F, 0F, 0F, 21, 8, 1, 0F,0F, 0.5F, 0.1F, 0F, 0.5F, 0.1F, 0F, 0.5F, 0.1F, 0F, 0.5F, 0.1F, 0F, 0F, 0.1F, 0F, 0F, 0.1F, 0F, 0F, 0.1F, 0F, 0F, 0.1F); // Box 336
 		bodyModel[190].setRotationPoint(-14.5F, -3F, 9.1F);
 
-		bodyModel[191].addShapeBox(0F, 0F, 0F, 1, 1, 1, 0F,0F, -0.15F, -0.15F, 0F, -0.15F, -0.15F, 0F, 0.1F, -0.125F, 0F, 0.1F, -0.125F, 0F, -0.125F, 0.1F, 0F, -0.125F, 0.1F, 0F, -0.125F, -0.125F, 0F, -0.125F, -0.125F); // Lamp
+		bodyModel[191].addShapeBox(0F, 0F, 0F, 1, 1, 1, 0F,0F, -0.15F, 0.05F, 0F, -0.15F, 0.05F, 0F, 0.3F, -0.125F, 0F, 0.3F, -0.125F, 0F, -0.125F, 0.3F, 0F, -0.125F, 0.3F, 0F, -0.125F, -0.125F, 0F, -0.125F, -0.125F); // Lamp
 		bodyModel[191].setRotationPoint(-30.3F, -1F, -0.88F);
 
-		bodyModel[192].addShapeBox(0F, 0F, 0F, 1, 1, 1, 0F,0F, 0.1F, -0.125F, 0F, 0.1F, -0.125F, 0F, -0.15F, -0.15F, 0F, -0.15F, -0.15F, 0F, -0.125F, -0.125F, 0F, -0.125F, -0.125F, 0F, -0.125F, 0.1F, 0F, -0.125F, 0.1F); // Lamp
+		bodyModel[192].addShapeBox(0F, 0F, 0F, 1, 1, 1, 0F,0F, 0.3F, -0.125F, 0F, 0.3F, -0.125F, 0F, -0.15F, 0.05F, 0F, -0.15F, 0.05F, 0F, -0.125F, -0.125F, 0F, -0.125F, -0.125F, 0F, -0.125F, 0.3F, 0F, -0.125F, 0.3F); // Lamp
 		bodyModel[192].setRotationPoint(-30.3F, -1F, -0.129999999999999F);
 
-		bodyModel[193].addShapeBox(0F, 0F, 0F, 1, 1, 1, 0F,0F, -0.125F, -0.125F, 0F, -0.125F, -0.125F, 0F, -0.125F, 0.1F, 0F, -0.125F, 0.1F, 0F, 0.1F, -0.125F, 0F, -0.15F, -0.125F, 0F, -0.15F, -0.15F, 0F, -0.15F, -0.15F); // Lamp
+		bodyModel[193].addShapeBox(0F, 0F, 0F, 1, 1, 1, 0F,0F, -0.125F, -0.125F, 0F, -0.125F, -0.125F, 0F, -0.125F, 0.3F, 0F, -0.125F, 0.3F, 0F, 0.3F, -0.125F, 0F, 0.25F, -0.125F, 0F, -0.15F, 0.05F, 0F, -0.15F, 0.05F); // Lamp
 		bodyModel[193].setRotationPoint(-30.3F, -0.25F, -0.129999999999999F);
 
-		bodyModel[194].addShapeBox(0F, 0F, 0F, 1, 1, 1, 0F,0F, -0.125F, 0.1F, 0F, -0.125F, 0.1F, 0F, -0.125F, -0.125F, 0F, -0.125F, -0.125F, 0F, -0.15F, -0.15F, 0F, -0.15F, -0.15F, 0F, 0.1F, -0.125F, 0F, 0.1F, -0.125F); // Lamp
+		bodyModel[194].addShapeBox(0F, 0F, 0F, 1, 1, 1, 0F,0F, -0.125F, 0.3F, 0F, -0.125F, 0.3F, 0F, -0.125F, -0.125F, 0F, -0.125F, -0.125F, 0F, -0.15F, 0.05F, 0F, -0.15F, 0.05F, 0F, 0.3F, -0.125F, 0F, 0.3F, -0.125F); // Lamp
 		bodyModel[194].setRotationPoint(-30.3F, -0.25F, -0.88F);
 
 		bodyModel[195].addShapeBox(0F, 0F, 0F, 1, 1, 1, 0F,0F, -0.125F, 0.4F, 0F, -0.125F, 0.4F, 0F, -0.125F, -0.125F, 0F, -0.125F, -0.125F, 0F, -0.025F, 0.15F, 0F, -0.025F, 0.15F, 0F, 0.4F, -0.125F, 0F, 0.4F, -0.125F); // Lamp
@@ -1287,7 +1287,7 @@ public class ModelDuewagGT6ERLoco extends ModelConverter //Same as Filename
 		bodyModel[266].addShapeBox(0F, 0F, 0F, 2, 9, 10, 0F,-0.23F, 0F, -3.25F, -1F, 0F, 0F, -1F, 0F, 0F, -0.23F, 0F, -3.25F, -0.23F, 0.5F, -3.25F, -1F, 0.5F, 0F, -1F, 0.5F, 0F, -0.23F, 0.5F, -3.25F); // Box 186
 		bodyModel[266].setRotationPoint(-30.2F, -4.5F, -5F);
 
-		bodyModel[267].addShapeBox(0F, 0F, 0F, 2, 1, 3, 0F,-0.15F, 0.25F, -1.95F, -0.5F, 0.25F, -2F, -0.5F, 0.25F, 0F, -0.5F, 0.25F, -0.5F, 0.9F, 0F, -0.5F, -0.5F, 0F, -2F, -0.5F, 0F, 0F, 0F, 0F, -0.75F); // Box 339
+		bodyModel[267].addShapeBox(0F, 0F, 0F, 2, 1, 3, 0F,-0.15F, 0F, -1.95F, -0.5F, 0F, -2F, -0.5F, 0F, 0F, -0.5F, 0F, -0.5F, 1.15F, 0F, 0F, -0.5F, 0F, -2F, -0.5F, 0F, 0F, 0F, 0F, -0.75F); // Box 339
 		bodyModel[267].setRotationPoint(-28F, -5.5F, 5.05F);
 
 		bodyModel[268].addShapeBox(0F, 0F, 0F, 1, 9, 1, 0F,0F, 0F, 0.5F, 0.5F, 0F, 1.25F, 0.5F, 0F, -1.15F, 0F, 0F, -0.25F, 0F, 0.5F, 0.5F, 0.5F, 0.5F, 1.25F, 0.5F, 0.5F, -1.15F, 0F, 0.5F, 0F); // Box 310
@@ -1296,8 +1296,8 @@ public class ModelDuewagGT6ERLoco extends ModelConverter //Same as Filename
 		bodyModel[269].addShapeBox(0F, 0F, 0F, 1, 9, 1, 0F,0F, 0F, 0F, 0.5F, 0F, -1F, 0.5F, 0F, 1F, 0F, 0F, 0.25F, 0F, 0.5F, 0F, 0.5F, 0.5F, -1F, 0.5F, 0.5F, 1F, 0F, 0.5F, 0.25F); // Box 312
 		bodyModel[269].setRotationPoint(-28F, -4.5F, 6.05F);
 
-		bodyModel[270].addShapeBox(0F, 0F, 0F, 2, 1, 11, 0F,-1.1F, -0.5F, -0.7F, -0.5F, -0.5F, -0.7F, -0.5F, -0.5F, -0.7F, -1.1F, -0.5F, -0.7F, -1.1F, 0.1F, -0.7F, -0.543F, 0.1F, -0.7F, -0.54F, 0.1F, -0.7F, -1.1F, 0.1F, -0.7F); // Box 314
-		bodyModel[270].setRotationPoint(-29.3F, -16.5F, -5.5F);
+		bodyModel[270].addShapeBox(0F, 0F, 0F, 2, 1, 11, 0F,-1F, -0.5F, -0.7F, -0.5F, -0.5F, -0.7F, -0.5F, -0.5F, -0.7F, -1F, -0.5F, -0.7F, -1F, 0.1F, -0.7F, -0.543F, 0.1F, -0.7F, -0.54F, 0.1F, -0.7F, -1F, 0.1F, -0.7F); // Box 314
+		bodyModel[270].setRotationPoint(-29.4F, -16.5F, -5.5F);
 
 		bodyModel[271].addShapeBox(0F, 0F, 0F, 6, 11, 1, 0F,0F, 0F, 0.3F, 0F, 0F, 0.5F, 0F, 0F, -0.5F, 0F, 0F, -0.3F, 0F, 0.5F, 0.3F, 0F, 0.5F, 0.6F, 0F, 0.5F, -0.5F, 0F, 0.5F, -0.3F); // Box 319
 		bodyModel[271].setRotationPoint(-20.5F, -15F, -9.5F);
@@ -1308,7 +1308,7 @@ public class ModelDuewagGT6ERLoco extends ModelConverter //Same as Filename
 		bodyModel[273].addShapeBox(0F, 0F, 0F, 6, 2, 1, 0F,0F, 0F, -0.3F, 0F, 0F, 0.1F, 0F, 0F, 0F, 0F, 0F, 0.2F, 0F, -0.2F, -0.5F, 0F, -0.2F, -0.2F, 0F, 0F, 0F, 0F, 0F, 0.3F); // Box 322
 		bodyModel[273].setRotationPoint(-20.5F, 5F, -10.1F);
 
-		bodyModel[274].addShapeBox(0F, 0F, 0F, 1, 7, 1, 0F,-2.3F, 1.8F, -0.9F, 1.85F, 1.8F, -0.9F, 1.8F, 1.8F, 0.1F, -2.3F, 1.8F, 0.1F, 0.6F, -0.5F, -0.9F, -1.1F, -0.5F, -0.9F, -1.1F, -0.5F, 0.1F, 0.6F, -0.5F, 0.1F); // Box 282
+		bodyModel[274].addShapeBox(0F, 0F, 0F, 1, 7, 1, 0F,-2.5F, 1.8F, -0.9F, 1.85F, 1.8F, -0.9F, 1.8F, 1.8F, 0.1F, -2.5F, 1.8F, 0.1F, 0.7F, -0.5F, -0.9F, -1.2F, -0.5F, -0.9F, -1.2F, -0.5F, 0.1F, 0.7F, -0.5F, 0.1F); // Box 282
 		bodyModel[274].setRotationPoint(-29.15F, -11F, -1F);
 
 		bodyModel[275].addBox(0F, 0F, 0F, 1, 4, 1, 0F); // Box 331
@@ -1353,71 +1353,71 @@ public class ModelDuewagGT6ERLoco extends ModelConverter //Same as Filename
 		bodyModel[288].addShapeBox(0F, 0F, 0F, 1, 2, 3, 0F,0F, -1.25F, -0.5F, 0F, -0.75F, -0.5F, 0F, -0.75F, -0.5F, 0F, -1.25F, -0.5F, 0F, 0.75F, -0.5F, 0F, 1F, -0.5F, 0F, 1F, -0.5F, 0F, 0.75F, -0.5F); // lamp
 		bodyModel[288].setRotationPoint(-30.15F, -1.3F, -1.5F);
 
-		bodyModel[289].addShapeBox(0F, 0F, 0F, 1, 1, 1, 0F,0F, -0.125F, 0.2F, 0F, -0.125F, 0.2F, 0F, -0.125F, -0.125F, 0F, -0.125F, -0.125F, 0F, -0.05F, -0.05F, 0F, -0.05F, -0.05F, 0F, 0.2F, -0.125F, 0F, 0.2F, -0.125F); // Box 314
+		bodyModel[289].addShapeBox(0F, 0F, 0F, 1, 1, 1, 0F,0F, -0.125F, 0.4F, 0F, -0.125F, 0.4F, 0F, -0.125F, -0.125F, 0F, -0.125F, -0.125F, 0F, -0.05F, 0.15F, 0F, -0.05F, 0.15F, 0F, 0.4F, -0.125F, 0F, 0.4F, -0.125F); // Box 314
 		bodyModel[289].setRotationPoint(-30.15F, -0.25F, -0.88F);
 
-		bodyModel[290].addShapeBox(0F, 0F, 0F, 1, 1, 1, 0F,0F, -0.05F, -0.05F, 0F, -0.05F, -0.05F, 0F, 0.2F, -0.125F, 0F, 0.2F, -0.125F, 0F, -0.125F, 0.2F, 0F, -0.125F, 0.2F, 0F, -0.125F, -0.125F, 0F, -0.125F, -0.125F); // Box 315
+		bodyModel[290].addShapeBox(0F, 0F, 0F, 1, 1, 1, 0F,0F, -0.05F, 0.15F, 0F, -0.05F, 0.15F, 0F, 0.4F, -0.125F, 0F, 0.4F, -0.125F, 0F, -0.125F, 0.4F, 0F, -0.125F, 0.4F, 0F, -0.125F, -0.125F, 0F, -0.125F, -0.125F); // Box 315
 		bodyModel[290].setRotationPoint(-30.15F, -1F, -0.88F);
 
-		bodyModel[291].addShapeBox(0F, 0F, 0F, 1, 1, 1, 0F,0F, -0.125F, -0.125F, 0F, -0.125F, -0.125F, 0F, -0.125F, 0.2F, 0F, -0.125F, 0.2F, 0F, 0.2F, -0.125F, 0F, 0.2F, -0.125F, 0F, -0.05F, -0.05F, 0F, -0.05F, -0.05F); // Box 318
+		bodyModel[291].addShapeBox(0F, 0F, 0F, 1, 1, 1, 0F,0F, -0.125F, -0.125F, 0F, -0.125F, -0.125F, 0F, -0.125F, 0.4F, 0F, -0.125F, 0.4F, 0F, 0.4F, -0.125F, 0F, 0.4F, -0.125F, 0F, -0.05F, 0.15F, 0F, -0.05F, 0.15F); // Box 318
 		bodyModel[291].setRotationPoint(-30.15F, -0.25F, -0.12F);
 
-		bodyModel[292].addShapeBox(0F, 0F, 0F, 1, 1, 1, 0F,0F, 0.2F, -0.125F, 0F, 0.2F, -0.125F, 0F, -0.05F, -0.05F, 0F, -0.05F, -0.05F, 0F, -0.125F, -0.125F, 0F, -0.125F, -0.125F, 0F, -0.125F, 0.2F, 0F, -0.125F, 0.2F); // Box 319
+		bodyModel[292].addShapeBox(0F, 0F, 0F, 1, 1, 1, 0F,0F, 0.4F, -0.125F, 0F, 0.4F, -0.125F, 0F, -0.05F, 0.15F, 0F, -0.05F, 0.15F, 0F, -0.125F, -0.125F, 0F, -0.125F, -0.125F, 0F, -0.125F, 0.4F, 0F, -0.125F, 0.4F); // Box 319
 		bodyModel[292].setRotationPoint(-30.15F, -1F, -0.12F);
 
 		bodyModel[293].addShapeBox(0F, 0F, 0F, 5, 1, 1, 0F,0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F); // Box 318
-		bodyModel[293].setRotationPoint(9F, -20F, -4.25F);
+		bodyModel[293].setRotationPoint(9F, -21F, -4.25F);
 
 		bodyModel[294].addBox(0F, 0F, 0F, 1, 1, 10, 0F); // Box 319
-		bodyModel[294].setRotationPoint(9F, -21F, -5F);
+		bodyModel[294].setRotationPoint(9F, -22F, -5F);
 
 		bodyModel[295].addShapeBox(0F, 0F, 0F, 7, 1, 0, 0F,1F, 5F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 1F, 5F, 0F, 1F, -5F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 1F, -5F, 0F); // Box 320
-		bodyModel[295].setRotationPoint(2F, -21F, -5F);
+		bodyModel[295].setRotationPoint(2F, -22F, -5F);
 
 		bodyModel[296].addShapeBox(0F, 0F, 0F, 8, 1, 0, 0F,1F, -4F, 0F, 0F, 2F, 0F, 0F, 2F, 0F, 1F, -4F, 0F, 1F, 4F, 0F, 0F, -2F, 0F, 0F, -2F, 0F, 1F, 4F, 0F); // Box 321
-		bodyModel[296].setRotationPoint(2F, -30.25F, -5F);
+		bodyModel[296].setRotationPoint(2F, -31.25F, -5F);
 
 		bodyModel[297].addBox(0F, 0F, 0F, 1, 1, 10, 0F); // Box 322
-		bodyModel[297].setRotationPoint(13F, -21F, -5F);
+		bodyModel[297].setRotationPoint(13F, -22F, -5F);
 
 		bodyModel[298].addShapeBox(0F, 0F, 0F, 7, 1, 0, 0F,0F, 0F, 0F, 1F, 5F, 0F, 1F, 5F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 1F, -5F, 0F, 1F, -5F, 0F, 0F, 0F, 0F); // Box 323
-		bodyModel[298].setRotationPoint(14F, -21F, -5F);
+		bodyModel[298].setRotationPoint(14F, -22F, -5F);
 
 		bodyModel[299].addShapeBox(0F, 0F, 0F, 8, 1, 0, 0F,0F, 2F, 0F, 1F, -4F, 0F, 1F, -4F, 0F, 0F, 2F, 0F, 0F, -2F, 0F, 1F, 4F, 0F, 1F, 4F, 0F, 0F, -2F, 0F); // Box 324
-		bodyModel[299].setRotationPoint(13F, -30.25F, -5F);
+		bodyModel[299].setRotationPoint(13F, -31.25F, -5F);
 
 		bodyModel[300].addShapeBox(0F, 0F, 0F, 7, 1, 0, 0F,0F, 0F, 0F, 1F, 5F, 0F, 1F, 5F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 1F, -5F, 0F, 1F, -5F, 0F, 0F, 0F, 0F); // Box 325
-		bodyModel[300].setRotationPoint(14F, -21F, 5F);
+		bodyModel[300].setRotationPoint(14F, -22F, 5F);
 
 		bodyModel[301].addShapeBox(0F, 0F, 0F, 5, 1, 1, 0F,0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F); // Box 326
-		bodyModel[301].setRotationPoint(9F, -20F, 3.25F);
+		bodyModel[301].setRotationPoint(9F, -21F, 3.25F);
 
 		bodyModel[302].addShapeBox(0F, 0F, 0F, 8, 1, 0, 0F,0F, 2F, 0F, 1F, -4F, 0F, 1F, -4F, 0F, 0F, 2F, 0F, 0F, -2F, 0F, 1F, 4F, 0F, 1F, 4F, 0F, 0F, -2F, 0F); // Box 327
-		bodyModel[302].setRotationPoint(13F, -30.25F, 5F);
+		bodyModel[302].setRotationPoint(13F, -31.25F, 5F);
 
 		bodyModel[303].addShapeBox(0F, 0F, 0F, 1, 1, 2, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, -1.5F, 0F, 0F, -1.5F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 1F, 0F, -0.25F, 1F, 0F); // Box 328
-		bodyModel[303].setRotationPoint(12F, -33.75F, 5.25F);
+		bodyModel[303].setRotationPoint(12F, -34.75F, 5.25F);
 
 		bodyModel[304].addBox(0F, 0F, 0F, 3, 1, 1, 0F); // Box 329
-		bodyModel[304].setRotationPoint(10F, -32.75F, 4F);
+		bodyModel[304].setRotationPoint(10F, -33.75F, 4F);
 
 		bodyModel[305].addShapeBox(0F, 0F, 0F, 1, 1, 2, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, -1.5F, 0F, 0F, -1.5F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 1F, 0F, -0.25F, 1F, 0F); // Box 330
-		bodyModel[305].setRotationPoint(10F, -33.75F, 5.25F);
+		bodyModel[305].setRotationPoint(10F, -34.75F, 5.25F);
 
 		bodyModel[306].addShapeBox(0F, 0F, 0F, 1, 1, 10, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F); // Box 331
-		bodyModel[306].setRotationPoint(10F, -33.75F, -4.75F);
+		bodyModel[306].setRotationPoint(10F, -34.75F, -4.75F);
 
 		bodyModel[307].addShapeBox(0F, 0F, 0F, 1, 1, 10, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F); // Box 332
-		bodyModel[307].setRotationPoint(12F, -33.75F, -4.75F);
+		bodyModel[307].setRotationPoint(12F, -34.75F, -4.75F);
 
 		bodyModel[308].addBox(0F, 0F, 0F, 3, 1, 1, 0F); // Box 333
-		bodyModel[308].setRotationPoint(10F, -32.75F, -5F);
+		bodyModel[308].setRotationPoint(10F, -33.75F, -5F);
 
 		bodyModel[309].addShapeBox(0F, 0F, 0F, 7, 1, 0, 0F,1F, 5F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 1F, 5F, 0F, 1F, -5F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 1F, -5F, 0F); // Box 334
-		bodyModel[309].setRotationPoint(2F, -21F, 5F);
+		bodyModel[309].setRotationPoint(2F, -22F, 5F);
 
 		bodyModel[310].addShapeBox(0F, 0F, 0F, 8, 1, 0, 0F,1F, -4F, 0F, 0F, 2F, 0F, 0F, 2F, 0F, 1F, -4F, 0F, 1F, 4F, 0F, 0F, -2F, 0F, 0F, -2F, 0F, 1F, 4F, 0F); // Box 335
-		bodyModel[310].setRotationPoint(2F, -30.25F, 5F);
+		bodyModel[310].setRotationPoint(2F, -31.25F, 5F);
 
 		bodyModel[311].addShapeBox(0F, 0F, 0F, 5, 7, 0, 0F,0F, 0F, 0F, 0F, 0F, 3F, 0F, 0F, -3F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 3F, 0F, 0F, -3F, 0F, 0F, 0F); // Box 336
 		bodyModel[311].setRotationPoint(-32F, -15.8F, 10.8F);
@@ -1520,16 +1520,16 @@ public class ModelDuewagGT6ERLoco extends ModelConverter //Same as Filename
 		bodyModel[343].setRotationPoint(26.49F, 4F, -9.69F);
 
 		bodyModel[344].addShapeBox(-9F, -1F, -1F, 9, 1, 1, 0F,0F, 4F, 0F, 0F, -1F, 0F, 0F, -1F, 1F, 0F, 4F, 1F, 0F, -4F, 0F, 0F, 1F, 0F, 0F, 1F, 1F, 0F, -4F, 1F); // Box 58
-		bodyModel[344].setRotationPoint(-10F, -21F, 0F);
+		bodyModel[344].setRotationPoint(-10F, -22F, 0F);
 
 		bodyModel[345].addShapeBox(1F, -1F, -3F, 19, 1, 12, 0F,1F, -2F, -1F, -9F, 4.5F, 1.5F, -9F, 4.5F, -4.5F, 1F, -2F, -7F, 1F, 2F, -1F, -9F, -4.5F, 1.5F, -9F, -4.5F, -4.5F, 1F, 2F, -7F); // Box 59
-		bodyModel[345].setRotationPoint(-19.5F, -27F, 0F);
+		bodyModel[345].setRotationPoint(-19.5F, -28F, 0F);
 
 		bodyModel[346].addShapeBox(1F, -1F, -3F, 19, 1, 12, 0F,-9F, 4.5F, 1.5F, 1F, -2F, -1F, 1F, -2F, -7F, -9F, 4.5F, -4.5F, -9F, -4.5F, 1.5F, 1F, 2F, -1F, 1F, 2F, -7F, -9F, -4.5F, -4.5F); // Box 322
-		bodyModel[346].setRotationPoint(-16.5F, -27F, 0F);
+		bodyModel[346].setRotationPoint(-16.5F, -28F, 0F);
 
 		bodyModel[347].addShapeBox(-9F, -1F, -1F, 9, 1, 1, 0F,0F, -1F, 0F, 0F, 4F, 0F, 0F, 4F, 1F, 0F, -1F, 1F, 0F, 1F, 0F, 0F, -4F, 0F, 0F, -4F, 1F, 0F, 1F, 1F); // Box 323
-		bodyModel[347].setRotationPoint(4F, -21F, 0F);
+		bodyModel[347].setRotationPoint(4F, -22F, 0F);
 
 		bodyModel[348].addShapeBox(0F, 0F, 0F, 1, 4, 1, 0F,-0.5F, -2.5F, -0.25F, 0F, 0F, -0.1F, 0F, 0F, -0.1F, -0.5F, -2.5F, -0.1F, -0.5F, 1.5F, -0.5F, 0F, 1.5F, 0F, 0F, 1.5F, -0.1F, -0.5F, 1.5F, 0F); // Box 379
 		bodyModel[348].setRotationPoint(-27.5F, -10F, -8.05F);
@@ -1552,14 +1552,14 @@ public class ModelDuewagGT6ERLoco extends ModelConverter //Same as Filename
 		bodyModel[354].addShapeBox(0F, 0F, 0F, 6, 1, 5, 0F,0F, -1.5F, -1.25F, 0F, -1F, 0F, 0F, -0.2F, 0F, 0F, -1.5F, 0F, 0F, 0.5F, -1.25F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0.5F, 0F); // Box 382
 		bodyModel[354].setRotationPoint(-26.5F, -20F, -8F);
 
-		bodyModel[355].addShapeBox(0F, 0F, 0F, 2, 1, 3, 0F,-0.25F, 0.3F, -0.5F, -0.5F, -0.3F, 0F, 0.1F, -0.1F, -0.45F, -0.15F, 0.5F, -1.95F, -0.9F, 0.65F, -0.35F, -0.5F, 0.65F, 0F, -0.5F, 0.65F, -1.8F, -0.9F, 0.65F, -2.65F); // Box 383
+		bodyModel[355].addShapeBox(0F, 0F, 0F, 2, 1, 3, 0F,-0.25F, 0.3F, -0.5F, -0.5F, -0.3F, 0F, 0.25F, -0.1F, -0.45F, -0.15F, 0.5F, -1.95F, -0.9F, 0.65F, -0.35F, -0.5F, 0.65F, 0F, -0.35F, 0.65F, -1.52F, -0.9F, 0.65F, -2.65F); // Box 383
 		bodyModel[355].setRotationPoint(-28F, -11.9F, -8.05F);
 
 		bodyModel[356].addShapeBox(0F, 0F, 0F, 1, 1, 2, 0F,0F, -1.5F, 0F, 0F, -1.5F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.25F, 1F, 0F, -0.25F, 1F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F); // Box 583
-		bodyModel[356].setRotationPoint(12F, -33.75F, -6.75F);
+		bodyModel[356].setRotationPoint(12F, -34.75F, -6.75F);
 
 		bodyModel[357].addShapeBox(0F, 0F, 0F, 1, 1, 2, 0F,0F, -1.5F, 0F, 0F, -1.5F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.25F, 1F, 0F, -0.25F, 1F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F); // Box 584
-		bodyModel[357].setRotationPoint(10F, -33.75F, -6.75F);
+		bodyModel[357].setRotationPoint(10F, -34.75F, -6.75F);
 
 		bodyModel[358].addShapeBox(0F, 0F, 0F, 2, 2, 2, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.5F, 0F, -0.5F, 0F, -0.3F, 0F, 0F, -0.3F, 0.1F, 0F, 0F, 0.1F, -0.5F, 0F, -0.5F); // Box 385
 		bodyModel[358].setRotationPoint(-18.5F, -21F, 6.2F);
@@ -1579,16 +1579,16 @@ public class ModelDuewagGT6ERLoco extends ModelConverter //Same as Filename
 		bodyModel[363].addShapeBox(0F, 0F, 0F, 2, 2, 2, 0F,0F, 0F, 0F, 0F, 0F, 0F, -0.5F, 0F, -0.5F, 0F, 0F, 0F, 0F, -0.3F, 0F, 0F, -0.3F, 0F, -0.5F, 0F, -0.5F, 0F, 0F, 0F); // Box 390
 		bodyModel[363].setRotationPoint(21.5F, -21F, 6.2F);
 
-		bodyModel[364].addShapeBox(0F, 0F, 0F, 2, 1, 3, 0F,-0.4F, 0.25F, -0.5F, -0.5F, 0.25F, 0F, -0.5F, 0.25F, -2F, -0.2F, 0.25F, -1.95F, 0F, 0F, -0.75F, -0.5F, 0F, 0F, -0.5F, 0F, -1.9F, 0.9F, 0F, -0.5F); // Box 391
+		bodyModel[364].addShapeBox(0F, 0F, 0F, 2, 1, 3, 0F,-0.4F, 0F, -0.5F, -0.5F, 0F, 0F, -0.5F, 0F, -2F, -0.2F, 0F, -1.95F, 0F, 0F, -0.75F, -0.5F, 0F, 0F, -0.5F, 0F, -1.9F, 1.1F, 0F, 0F); // Box 391
 		bodyModel[364].setRotationPoint(-28F, -5.5F, -8.05F);
 
-		bodyModel[365].addShapeBox(0F, 0F, 0F, 2, 1, 3, 0F,-0.8F, -0.4F, -0.3F, -0.5F, -0.4F, 0F, -1F, -0.4F, -2.3F, -0.8F, -0.4F, -2.7F, -0.4F, 1F, -0.5F, -0.5F, 1F, 0F, -1F, 1F, -2F, -0.2F, 1F, -1.95F); // Box 392
+		bodyModel[365].addShapeBox(0F, 0F, 0F, 2, 1, 3, 0F,-0.8F, -0.4F, -0.3F, -0.5F, -0.4F, 0F, -1F, -0.4F, -2.3F, -0.8F, -0.4F, -2.7F, -0.4F, 1.25F, -0.5F, -0.5F, 1.25F, 0F, -1F, 1.25F, -2F, -0.2F, 1.25F, -1.95F); // Box 392
 		bodyModel[365].setRotationPoint(-28F, -7.75F, -8.05F);
 
-		bodyModel[366].addShapeBox(0F, 0F, 0F, 1, 2, 7, 0F,-0.7F, -0.75F, 0F, 0.3F, -0.75F, 0.15F, -1.4F, -0.75F, 0F, 0.75F, -0.75F, 0F, 0.35F, 0F, -1.45F, -0.6F, 0F, -1.1F, -1.8F, 0F, 0F, 1.2F, 0F, 0F); // Box 395
+		bodyModel[366].addShapeBox(0F, 0F, 0F, 1, 2, 7, 0F,-0.7F, -1F, 0F, 0.3F, -1F, 0.15F, -1.4F, -1F, 0F, 0.9F, -1F, 0F, 0.55F, 0F, -1.95F, -0.6F, 0F, -1.1F, -1.8F, 0F, 0F, 1.3F, 0F, 0F); // Box 395
 		bodyModel[366].setRotationPoint(-28.5F, -6.5F, -7F);
 
-		bodyModel[367].addShapeBox(0F, 0F, 0F, 1, 6, 7, 0F,-1.6F, -0.05F, -0.7F, 0.8F, -0.05F, -0.65F, 0.1F, 0.2F, 0F, -0.9F, 0.2F, 0F, -0.35F, -0.15F, 0.75F, -0.3F, -0.15F, 0.75F, -1.95F, -0.15F, 0F, 1.2F, -0.15F, 0F); // Box 396
+		bodyModel[367].addShapeBox(0F, 0F, 0F, 1, 6, 7, 0F,-1.6F, -0.05F, -0.7F, 0.8F, -0.05F, -0.65F, 0.3F, 0.2F, 0F, -1.1F, 0.2F, 0F, -0.35F, -0.15F, 0.75F, -0.3F, -0.15F, 0.75F, -1.95F, -0.15F, 0F, 1.2F, -0.15F, 0F); // Box 396
 		bodyModel[367].setRotationPoint(-27.5F, -13.2F, -7F);
 
 		bodyModel[368].addShapeBox(0F, 0F, 0F, 90, 7, 1, 0F,0F, 0F, 0F, -50F, 0F, 0F, -50F, 0F, -0.9F, 0F, 0F, -0.9F, 0F, -3F, 0F, -50F, -3F, 0F, -50F, -3F, -0.9F, 0F, -3F, -0.9F); // Box 239
@@ -1633,13 +1633,13 @@ public class ModelDuewagGT6ERLoco extends ModelConverter //Same as Filename
 		bodyModel[381].addShapeBox(0F, 0F, 0F, 41, 1, 1, 0F,0F, 0F, 0F, 0.1F, 0F, 0F, 0.1F, 0F, 0F, 0F, 0F, 0F, 0F, -0.75F, 0F, 0.1F, -0.75F, 0F, 0.1F, -0.75F, 0F, 0F, -0.75F, 0F); // Box 618
 		bodyModel[381].setRotationPoint(-14.5F, -16.1F, -10.11F);
 
-		bodyModel[382].addShapeBox(0F, 0F, 0F, 1, 1, 1, 0F,0.3F, 0F, 1.1F, 0.5F, 0F, -1F, 0.5F, 0F, 1.05F, -0.15F, 0F, 0.35F, 0.3F, -0.75F, 1.1F, 0.5F, -0.75F, -1F, 0.5F, -0.75F, 1.05F, -0.15F, -0.75F, 0.35F); // Box 619
+		bodyModel[382].addShapeBox(0F, 0F, 0F, 1, 1, 1, 0F,0.5F, 0F, 1.1F, 0.5F, 0F, -1F, 0.5F, 0F, 1.05F, -0.15F, 0F, 0.35F, 0.5F, -0.75F, 1.1F, 0.5F, -0.75F, -1F, 0.5F, -0.75F, 1.05F, -0.15F, -0.75F, 0.35F); // Box 619
 		bodyModel[382].setRotationPoint(-28F, -16.1F, 6.15F);
 
 		bodyModel[383].addShapeBox(0F, 0F, 0F, 41, 1, 1, 0F,0F, 0F, 0F, 0.025F, 0F, 0F, 0.025F, 0F, -0.05F, 0F, 0F, -0.05F, 0F, -0.75F, 0F, 0.025F, -0.75F, 0F, 0.025F, -0.75F, -0.05F, 0F, -0.75F, -0.05F); // Box 620
 		bodyModel[383].setRotationPoint(-14.51F, -16.1F, 9.15F);
 
-		bodyModel[384].addShapeBox(0F, 0F, 0F, 1, 1, 1, 0F,-0.15F, 0F, 0.35F, 0.5F, 0F, 1.05F, 0.5F, 0F, -1F, 0.3F, 0F, 1.05F, -0.15F, -0.75F, 0.35F, 0.5F, -0.75F, 1.05F, 0.5F, -0.75F, -1F, 0.3F, -0.75F, 1.05F); // Box 414
+		bodyModel[384].addShapeBox(0F, 0F, 0F, 1, 1, 1, 0F,-0.15F, 0F, 0.35F, 0.5F, 0F, 1.05F, 0.5F, 0F, -1F, 0.5F, 0F, 1.05F, -0.15F, -0.75F, 0.35F, 0.5F, -0.75F, 1.05F, 0.5F, -0.75F, -1F, 0.5F, -0.75F, 1.05F); // Box 414
 		bodyModel[384].setRotationPoint(-28F, -16.1F, -7.07F);
 
 		bodyModel[385].addShapeBox(0F, 0F, 0F, 6, 1, 1, 0F,0F, 0F, 1.75F, 0F, 0F, 0F, 0F, 0F, -0.5F, 0F, 0F, -2.2F, 0F, -0.75F, 1.75F, 0F, -0.75F, 0F, 0F, -0.75F, -0.5F, 0F, -0.75F, -2.2F); // Box 415
@@ -1649,7 +1649,7 @@ public class ModelDuewagGT6ERLoco extends ModelConverter //Same as Filename
 		bodyModel[386].setRotationPoint(-20.5F, -16.1F, 8.95F);
 
 		bodyModel[387].addShapeBox(0F, 0F, 0F, 1, 1, 9, 0F,-0.1F, 0F, 0.55F, -0.6F, 0F, 0.8F, -0.6F, 0F, 0.8F, -0.1F, 0F, 0.55F, -0.1F, -0.75F, 0.55F, -0.6F, -0.75F, 0.8F, -0.6F, -0.75F, 0.8F, -0.1F, -0.75F, 0.55F); // Box 417
-		bodyModel[387].setRotationPoint(-28.4F, -16.1F, -4.5F);
+		bodyModel[387].setRotationPoint(-28.6F, -16.1F, -4.5F);
 
 		bodyModel[388].addShapeBox(0F, 0F, 0F, 4, 1, 5, 0F,0F, -0.2F, 0F, 0F, -0.2F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F); // Box 318
 		bodyModel[388].setRotationPoint(26.5F, -19.5F, 2.5F);
@@ -1666,13 +1666,13 @@ public class ModelDuewagGT6ERLoco extends ModelConverter //Same as Filename
 		bodyModel[392].addShapeBox(0F, 0F, 0F, 1, 2, 3, 0F,0.35F, 0.1F, 0F, 0F, 0.1F, 0F, 0F, 0.1F, 0F, -0.2F, 0.1F, 0F, 0.35F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.2F, 0F, 0F); // Box 650
 		bodyModel[392].setRotationPoint(-29.5F, -0.05F, 2.65F);
 
-		bodyModel[393].addShapeBox(0F, 0F, 0F, 2, 4, 2, 0F,-1.3F, 0F, -3.25F, -0.25F, 0F, -0.65F, 0F, 0F, 1.5F, -1.3F, 0F, 1.25F, -1.3F, -0.8F, -3.25F, -0.4F, -1.1F, -0.6F, 0F, -0.9F, 1.5F, -1.3F, -0.8F, 1.25F); // Box 432
+		bodyModel[393].addShapeBox(0F, 0F, 0F, 2, 4, 2, 0F,-1.1F, 0F, -3.25F, -0.25F, 0F, -0.65F, 0F, 0F, 1.5F, -1.1F, 0F, 1.25F, -1.1F, -0.8F, -3.25F, -0.4F, -1.1F, -0.6F, 0F, -0.9F, 1.5F, -1.1F, -0.8F, 1.25F); // Box 432
 		bodyModel[393].setRotationPoint(-29.5F, -16F, -8.05F);
 
 		bodyModel[394].addShapeBox(0F, 0F, 0F, 1, 3, 1, 0F,0.25F, 0F, 0.35F, 0F, 0F, 1F, 0F, 0F, 0F, -0.21F, 0F, 0F, 0.4F, -0.1F, 0.4F, 0F, -0.35F, 1F, 0F, -0.2F, 0F, 0F, -0.2F, 0F); // Box 433
 		bodyModel[394].setRotationPoint(-27.5F, -16F, -7.05F);
 
-		bodyModel[395].addShapeBox(0F, 0F, 0F, 2, 2, 3, 0F,-0.1F, -0.3F, -0.6F, -0.5F, -0.05F, 0F, 0.35F, -0.75F, 1F, 0.2F, -0.6F, 0.25F, -0.25F, -0.8F, -0.5F, -0.5F, -0.2F, 0F, 0.1F, -0.4F, -0.45F, -0.15F, -1F, -1.95F); // Box 434
+		bodyModel[395].addShapeBox(0F, 0F, 0F, 2, 2, 3, 0F,-0.1F, -0.3F, -0.6F, -0.5F, -0.05F, 0F, 0.55F, -0.75F, 1F, 0.4F, -0.6F, 0.25F, -0.25F, -0.8F, -0.5F, -0.5F, -0.2F, 0F, 0.25F, -0.4F, -0.45F, -0.15F, -1F, -1.95F); // Box 434
 		bodyModel[395].setRotationPoint(-28F, -13.4F, -8.05F);
 
 		bodyModel[396].addShapeBox(0F, 0F, 0F, 1, 1, 3, 0F,-0.25F, -0.8F, -0.4F, 0.25F, -0.7F, -0.4F, 0F, -0.7F, -0.5F, 0F, -0.8F, -0.6F, -0.25F, 0F, -0.4F, 0.25F, 0F, -0.4F, 0F, 0F, -0.5F, 0F, 0F, -0.6F); // Box 639
@@ -1705,7 +1705,7 @@ public class ModelDuewagGT6ERLoco extends ModelConverter //Same as Filename
 		bodyModel[405].addShapeBox(0F, 0F, 0F, 1, 3, 1, 0F,0F, -0.85F, -0.5F, 0F, -0.7F, -0.25F, 0F, -0.6F, -0.25F, 0F, -0.65F, -0.25F, 0F, -0.7F, -0.5F, 0F, -0.35F, -0.25F, 0F, -0.3F, -0.25F, 0F, -0.5F, -0.25F); // Box 648
 		bodyModel[405].setRotationPoint(-30.05F, -0.7F, 2.3F);
 
-		bodyModel[406].addShapeBox(0F, 0F, 0F, 2, 1, 1, 0F,-0.9F, 1.25F, -0.35F, -0.5F, 1.25F, 0F, -0.44F, 1.25F, 0.3F, -0.9F, 1.25F, -0.65F, -0.8F, 0.65F, -0.3F, -0.5F, 0.65F, 0F, -1F, 0.65F, -0.3F, -0.8F, 0.65F, -0.7F); // Box 431
+		bodyModel[406].addShapeBox(0F, 0F, 0F, 2, 1, 1, 0F,-0.9F, 1.25F, -0.35F, -0.5F, 1.25F, 0F, -0.34F, 1.25F, 0.5F, -0.9F, 1.25F, -0.65F, -0.8F, 0.65F, -0.3F, -0.5F, 0.65F, 0F, -1F, 0.65F, -0.3F, -0.8F, 0.65F, -0.7F); // Box 431
 		bodyModel[406].setRotationPoint(-28F, -9F, -8.05F);
 
 		bodyModel[407].addShapeBox(0F, 0F, 0F, 1, 1, 3, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0.2F, 0F, 0F, 0.2F, 0F, 0.1F, 0F, 0F, 0.1F, 0F, 0F, 0.7F, 0.2F, 0F, 0.7F, 0.2F); // Box 651
@@ -1729,23 +1729,23 @@ public class ModelDuewagGT6ERLoco extends ModelConverter //Same as Filename
 		bodyModel[413].addShapeBox(0F, 0F, 0F, 1, 3, 1, 0F,-0.21F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 1F, 0.25F, 0F, 0.35F, 0F, -0.2F, 0F, 0F, -0.2F, 0F, 0F, -0.35F, 1F, 0.4F, -0.1F, 0.4F); // Box 426
 		bodyModel[413].setRotationPoint(-27.5F, -16F, 6.05F);
 
-		bodyModel[414].addShapeBox(0F, 0F, 0F, 1, 2, 7, 0F,-0.85F, -0.4F, 0.75F, 0.2F, -0.4F, 0.75F, -1.4F, -0.4F, 0F, 0.7F, -0.4F, 0F, -0.2F, 0F, 0F, -0.2F, 0F, 0.15F, -1.9F, 0F, 0F, 1.25F, 0F, 0F); // Box 422
+		bodyModel[414].addShapeBox(0F, 0F, 0F, 1, 2, 7, 0F,-0.85F, -0.4F, 0.75F, 0.2F, -0.4F, 0.75F, -1.4F, -0.4F, 0F, 0.7F, -0.4F, 0F, -0.2F, 0.25F, 0F, -0.2F, 0.25F, 0.15F, -1.9F, 0.25F, 0F, 1.4F, 0.25F, 0F); // Box 422
 		bodyModel[414].setRotationPoint(-28F, -7.75F, -7F);
 
-		bodyModel[415].addShapeBox(0F, 0F, 0F, 1, 2, 7, 0F,0.75F, -0.75F, 0F, -1.4F, -0.75F, 0F, 0.2F, -0.75F, 0.15F, -0.7F, -0.75F, 0F, 1.2F, 0F, 0F, -1.8F, 0F, 0F, -0.6F, 0F, -1.15F, 0.35F, 0F, -1.4F); // Box 423
+		bodyModel[415].addShapeBox(0F, 0F, 0F, 1, 2, 7, 0F,0.9F, -1F, 0F, -1.4F, -1F, 0F, 0.2F, -1F, 0.15F, -0.7F, -1F, 0F, 1.3F, 0F, 0F, -1.8F, 0F, 0F, -0.6F, 0F, -1.15F, 0.55F, 0F, -1.9F); // Box 423
 		bodyModel[415].setRotationPoint(-28.5F, -6.5F, 0F);
 
-		bodyModel[416].addShapeBox(0F, 0F, 0F, 1, 2, 7, 0F,0.7F, -0.4F, 0F, -1.4F, -0.4F, 0F, 0.2F, -0.4F, 0.75F, -0.85F, -0.4F, 0.75F, 1.25F, 0F, 0F, -1.9F, 0F, 0F, -0.3F, 0F, 0.15F, -0.2F, 0F, 0F); // Box 424
+		bodyModel[416].addShapeBox(0F, 0F, 0F, 1, 2, 7, 0F,0.7F, -0.4F, 0F, -1.4F, -0.4F, 0F, 0.2F, -0.4F, 0.75F, -0.85F, -0.4F, 0.75F, 1.4F, 0.25F, 0F, -1.9F, 0.25F, 0F, -0.3F, 0.25F, 0.15F, -0.2F, 0.25F, 0F); // Box 424
 		bodyModel[416].setRotationPoint(-28F, -7.75F, 0F);
 
-		bodyModel[417].addShapeBox(0F, 0F, 0F, 1, 6, 7, 0F,-0.9F, 0.2F, 0F, 0.1F, 0.2F, 0F, 1F, -0.05F, -0.65F, -1.6F, -0.05F, -0.7F, 1.2F, -0.15F, 0F, -1.9F, -0.15F, 0F, -0.3F, -0.15F, 0.75F, -0.35F, -0.15F, 0.75F); // Box 425
+		bodyModel[417].addShapeBox(0F, 0F, 0F, 1, 6, 7, 0F,-1.1F, 0.2F, 0F, 0.3F, 0.2F, 0F, 1.1F, -0.05F, -0.65F, -1.7F, -0.05F, -0.7F, 1.2F, -0.15F, 0F, -1.9F, -0.15F, 0F, -0.3F, -0.15F, 0.75F, -0.35F, -0.15F, 0.75F); // Box 425
 		bodyModel[417].setRotationPoint(-27.5F, -13.2F, 0F);
 
 		bodyModel[418].addShapeBox(0F, 0F, 0F, 1, 2, 2, 0F,0F, -0.2F, 0F, 0F, -0.2F, 0F, 0F, -0.2F, -1F, 0F, -0.2F, -1F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -1F, 0F, 0F, -1F); // Box 425
-		bodyModel[418].setRotationPoint(-28.2F, -15.6F, -4.8F);
+		bodyModel[418].setRotationPoint(-28.4F, -15.6F, -4.8F);
 
 		bodyModel[419].addShapeBox(0F, 0F, 0F, 1, 2, 2, 0F,0F, -0.2F, -1F, 0F, -0.2F, -1F, 0F, -0.2F, 0F, 0F, -0.2F, 0F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, 0F); // Box 426
-		bodyModel[419].setRotationPoint(-28.2F, -15.6F, 2.8F);
+		bodyModel[419].setRotationPoint(-28.4F, -15.6F, 2.8F);
 
 		bodyModel[420].addBox(0F, 0F, 0F, 1, 1, 14, 0F); // Box 24
 		bodyModel[420].setRotationPoint(0F, 8.5F, -7F);
@@ -1819,22 +1819,22 @@ public class ModelDuewagGT6ERLoco extends ModelConverter //Same as Filename
 		bodyModel[443].addShapeBox(0F, 0F, 0F, 1, 2, 1, 0F,-0.5F, 0F, -0.5F, 0F, 0F, -0.5F, 0F, 0F, 0F, -0.5F, 0F, 0F, -0.5F, 0F, -0.5F, 0F, 0F, -0.5F, 0F, 0F, 0F, -0.5F, 0F, 0F); // Box 449
 		bodyModel[443].setRotationPoint(24F, 5.5F, 6.5F);
 
-		bodyModel[444].addShapeBox(0F, 0F, 0F, 2, 1, 1, 0F,-0.9F, 1.25F, -0.65F, -0.5F, 1.25F, 0.3F, -0.5F, 1.25F, 0F, -0.9F, 1.25F, -0.35F, -0.8F, 0.65F, -0.7F, -1F, 0.65F, -0.3F, -0.5F, 0.65F, 0F, -0.8F, 0.65F, -0.3F); // Box 450
+		bodyModel[444].addShapeBox(0F, 0F, 0F, 2, 1, 1, 0F,-0.9F, 1.25F, -0.65F, -0.5F, 1.25F, 0.5F, -0.5F, 1.25F, 0F, -0.9F, 1.25F, -0.35F, -0.8F, 0.65F, -0.7F, -1F, 0.65F, -0.3F, -0.5F, 0.65F, 0F, -0.8F, 0.65F, -0.3F); // Box 450
 		bodyModel[444].setRotationPoint(-28F, -9F, 7.05F);
 
-		bodyModel[445].addShapeBox(0F, 0F, 0F, 2, 1, 3, 0F,-0.15F, 0.5F, -1.95F, 0.1F, -0.3F, -0.45F, -0.5F, -0.3F, 0F, -0.25F, 0.3F, -0.5F, -0.9F, 0.65F, -2.65F, -0.525F, 0.65F, -1.735F, -0.5F, 0.65F, 0F, -0.9F, 0.65F, -0.35F); // Box 451
+		bodyModel[445].addShapeBox(0F, 0F, 0F, 2, 1, 3, 0F,-0.15F, 0.5F, -1.95F, 0.1F, -0.3F, -0.45F, -0.5F, -0.3F, 0F, -0.25F, 0.3F, -0.5F, -0.9F, 0.65F, -2.65F, -0.525F, 0.65F, -1.535F, -0.5F, 0.65F, 0F, -0.9F, 0.65F, -0.35F); // Box 451
 		bodyModel[445].setRotationPoint(-28F, -11.9F, 5.05F);
 
-		bodyModel[446].addShapeBox(0F, 0F, 0F, 2, 1, 3, 0F,-0.8F, -0.4F, -2.7F, -1F, -0.4F, -2.3F, -0.5F, -0.4F, 0F, -0.8F, -0.4F, -0.3F, -0.15F, 1F, -1.95F, -1F, 1F, -2F, -0.5F, 1F, 0F, -0.5F, 1F, -0.5F); // Box 452
+		bodyModel[446].addShapeBox(0F, 0F, 0F, 2, 1, 3, 0F,-0.8F, -0.4F, -2.7F, -1F, -0.4F, -2.3F, -0.5F, -0.4F, 0F, -0.8F, -0.4F, -0.3F, -0.15F, 1.25F, -1.95F, -1F, 1.25F, -2F, -0.5F, 1.25F, 0F, -0.5F, 1.25F, -0.5F); // Box 452
 		bodyModel[446].setRotationPoint(-28F, -7.75F, 5.05F);
 
 		bodyModel[447].addShapeBox(0F, 0F, 0F, 1, 2, 14, 0F,0F, -2.5F, -1.25F, 0F, -1.5F, -0.25F, 0F, -1.5F, -0.25F, 0F, -2.5F, -1.25F, 0F, 0.5F, -1.25F, 0F, 0.2F, 0.25F, 0F, 0.2F, 0.25F, 0F, 0.5F, -1.25F); // Box 451
 		bodyModel[447].setRotationPoint(-27.5F, -20F, -7F);
 
-		bodyModel[448].addShapeBox(0F, 0F, 0F, 2, 4, 2, 0F,-1.3F, 0F, 1.25F, 0F, 0F, 1.5F, -0.25F, 0F, -0.65F, -1.3F, 0F, -3.25F, -1.3F, -0.8F, 1.25F, 0F, -0.9F, 1.4F, -0.4F, -1.1F, -0.6F, -1.3F, -0.8F, -3.25F); // Box 451
+		bodyModel[448].addShapeBox(0F, 0F, 0F, 2, 4, 2, 0F,-1.1F, 0F, 1.25F, 0F, 0F, 1.5F, -0.25F, 0F, -0.65F, -1.1F, 0F, -3.25F, -1.1F, -0.8F, 1.25F, 0F, -0.9F, 1.4F, -0.4F, -1.1F, -0.6F, -1.1F, -0.8F, -3.25F); // Box 451
 		bodyModel[448].setRotationPoint(-29.5F, -16F, 6.05F);
 
-		bodyModel[449].addShapeBox(0F, 0F, 0F, 2, 2, 3, 0F,0.2F, -0.6F, 0.25F, 0.35F, -0.75F, 1F, -0.5F, -0.05F, 0F, -0.1F, -0.3F, -0.6F, -0.15F, -1F, -1.95F, 0.1F, -0.2F, -0.45F, -0.5F, -0.2F, 0F, -0.25F, -0.8F, -0.5F); // Box 452
+		bodyModel[449].addShapeBox(0F, 0F, 0F, 2, 2, 3, 0F,0.4F, -0.6F, 0.25F, 0.35F, -0.75F, 1F, -0.5F, -0.05F, 0F, -0.1F, -0.3F, -0.6F, -0.15F, -1F, -1.95F, 0.1F, -0.2F, -0.45F, -0.5F, -0.2F, 0F, -0.25F, -0.8F, -0.5F); // Box 452
 		bodyModel[449].setRotationPoint(-28F, -13.4F, 5.05F);
 	}
 	public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5) {
