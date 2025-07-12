@@ -12,6 +12,7 @@ import td1138.tramsinmotion.TramsInMotion;
 import td1138.tramsinmotion.library.TramsInMotionInfo;
 import td1138.tramsinmotion.models.rollingstock.ModelB80DTail;
 import td1138.tramsinmotion.models.trains.ModelB80DLoco;
+import train.client.render.Bogie;
 import train.common.api.AbstractTrains;
 import train.common.api.ElectricTrain;
 import train.common.api.Locomotive;
@@ -81,6 +82,11 @@ public class EntityLocoElectricB80DLoco extends ElectricTrain {
                 "Red", "Classic Rheinbahn Livery");
         SkinRegistry.addSkin(this.getClass(), TramsInMotionInfo.modID, "textures/trains/B80D_Gray.png",new String[]{},
                 "Gray", "New Rheinbahn Livery");
+    }
+
+    @Override
+    public String getDefaultSkin(){
+        return "Red";
     }
 
     /**
@@ -180,14 +186,18 @@ public class EntityLocoElectricB80DLoco extends ElectricTrain {
 
     @Override
     public float[][] modelOffsets() {
-        return new float[][] {{0.0f,0.18f,0.0f}};}
-         // return new float[][] {{0.0f,0.18f,0.0f},{4.7f,0.18f,0.0f}};}
+        //return new float[][] {{0.0f,0.18f,0.0f}};}
+        return new float[][] {{0.0f,0.18f,0.0f},{4.7f,0.18f,0.0f}};}
 
+    @Override
+    public Bogie[] bogies(){
+        return new Bogie[] {new Bogie(new ModelB80DTail(),8f,0.18f,0f)};
+    }
 
     @Override
     public float[][] modelRotations() {
-        return new float[][] {{0.0f,180.0f,180.0f}};
-        //return new float[][] {{0.0f,180.0f,180.0f},{180.0f,180.0f,0.0f}};
+        //return new float[][] {{0.0f,180.0f,180.0f}};
+        return new float[][] {{0.0f,180.0f,180.0f},{180.0f,180.0f,0.0f}};
     }
 
     /**
@@ -225,14 +235,14 @@ public class EntityLocoElectricB80DLoco extends ElectricTrain {
 
 
     @Override
-    public ModelBase[] getModel(){return new ModelBase[]{new ModelB80DLoco()};}
-   // public ModelBase[] getModel(){return new ModelBase[]{new ModelB80DLoco(),new ModelB80DTail()};}
+   // public ModelBase[] getModel(){return new ModelBase[]{new ModelB80DLoco()};}
+   public ModelBase[] getModel(){return new ModelBase[]{new ModelB80DLoco(),new ModelB80DTail()};}
 
 
     /**defines the scale to render the model at. Default is 0.0625*/
     public float[][] getRenderScale(){
-        return new float[][]{{1.0f, 1.0f, 1.0f}};
-       // return new float[][]{{1.0f, 1.0f, 1.0f},{1.0f, 1.0f, 1.0f}};
+       // return new float[][]{{1.0f, 1.0f, 1.0f}};
+       return new float[][]{{1.0f, 1.0f, 1.0f},{1.0f, 1.0f, 1.0f}};
     }
 
     @SideOnly(Side.CLIENT)

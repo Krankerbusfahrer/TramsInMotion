@@ -58,6 +58,11 @@ public class EntityPassengerPT8Middle extends EntityRollingStock implements IPas
     }
 
     @Override
+    public String getDefaultSkin(){
+        return "Orange";
+    }
+
+    @Override
     public boolean isReinforced() {
         return false;
     }

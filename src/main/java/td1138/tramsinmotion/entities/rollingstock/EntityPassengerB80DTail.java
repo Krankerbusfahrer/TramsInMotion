@@ -60,6 +60,11 @@ public class EntityPassengerB80DTail extends EntityRollingStock implements IPass
     }
 
     @Override
+    public String getDefaultSkin(){
+        return "Red";
+    }
+
+    @Override
     public boolean isReinforced() {
         return false;
     }

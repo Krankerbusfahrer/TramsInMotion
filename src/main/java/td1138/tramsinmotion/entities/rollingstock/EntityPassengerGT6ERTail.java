@@ -62,6 +62,11 @@ public class EntityPassengerGT6ERTail extends EntityRollingStock implements IPas
     }
 
     @Override
+    public String getDefaultSkin(){
+        return "Green";
+    }
+
+    @Override
     public boolean isReinforced() {
         return false;
     }

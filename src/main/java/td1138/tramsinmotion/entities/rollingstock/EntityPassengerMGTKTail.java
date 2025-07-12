@@ -58,6 +58,11 @@ public class EntityPassengerMGTKTail extends EntityRollingStock implements IPass
     }
 
     @Override
+    public String getDefaultSkin(){
+        return "Gray";
+    }
+
+    @Override
     public boolean isReinforced() {
         return false;
     }

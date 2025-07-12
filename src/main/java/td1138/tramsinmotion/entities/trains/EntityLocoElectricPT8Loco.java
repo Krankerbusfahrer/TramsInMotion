@@ -80,6 +80,11 @@ public class EntityLocoElectricPT8Loco extends ElectricTrain {
                 "Orange", "Livery used in Frankfurt until the 1990s");
     }
 
+    @Override
+    public String getDefaultSkin(){
+        return "Orange";
+    }
+
     /**
      * <h1>Variable Overrides</h1>
      * We override the functions defined in the super here, to give them different values.
