@@ -80,6 +80,8 @@ public class EntityLocoElectricGT6ERLoco extends ElectricTrain {
                 "Gray", "Livery used in Mainz until the 1990s");
         SkinRegistry.addSkin(this.getClass(), TramsInMotionInfo.modID, "textures/trains/Duewag_GT6ER_Green.png",new String[]{},
                 "Green", "Duewag Beige livery with a green stripe");
+        SkinRegistry.addSkin(this.getClass(), TramsInMotionInfo.modID, "textures/trains/Duewag_GT6ER_Orange.png",new String[]{},
+                "Orange", "Pop livery used in Duisburg");
     }
 
     @Override
