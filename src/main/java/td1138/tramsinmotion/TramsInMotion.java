@@ -73,6 +73,7 @@ public class TramsInMotion {
 				new EntityLocoElectricPT8Loco(null),
 				new EntityLocoElectricMGTKLoco(null),
 				new EntityLocoElectricB80DLoco(null),
+				new EntityLocoElectricGT8NCDULoco(null),
 		};
 	}
 
@@ -94,6 +95,7 @@ public class TramsInMotion {
 				new EntityPassengerPT8Middle(null),
 				new EntityPassengerMGTKTail(null),
 				new EntityPassengerB80DTail(null),
+				new EntityPassengerGT8NCDUMiddle(null),
 
 		};
 	}

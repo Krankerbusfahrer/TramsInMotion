@@ -13,6 +13,8 @@ item.MGT-K Loco.name=MGT-K Loco
 item.MGT-K Tail.name=MGT-K Tail
 item.B80D Loco.name=B80D Loco
 item.B80D Tail.name=B80D Tail
+item.GT8NCDU Loco.name GT8NCDU Loco
+item.GT8NCDU Middle.name GT8NCDU Middle
 
 <!-- Entities -->
 entity.tc.BIPRecipeBook.name=BIP Recipe Book
@@ -24,6 +26,8 @@ entity.tc.MGTKLoco.name=MGT-K Loco
 entity.tc.MGTKTail.name=MGT-K Tail
 entity.tc.B80DLoco.name=B80D Loco
 entity.tc.B80DTail.name=B80D Tail
+entity.tc.GT8NCDULoco.name=GT8NCDU Loco
+entity.tc.GT8NCDUMiddle.name=GT8NCDU Middle
 entity.tc.CenteredPole.name=Centered Pole
 entity.tc.LFPlatformFenced.name=LF Platform Fenced
 entity.tc.LFPlatformShelter.name=LF Platform Shelter
