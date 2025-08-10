@@ -23,7 +23,7 @@ public class ModelGT8NCDUEnd extends ModelConverter //Same as Filename
 
 	public ModelGT8NCDUEnd() //Same as Filename
 	{
-		bodyModel = new ModelRendererTurbo[305];
+		bodyModel = new ModelRendererTurbo[308];
 
 		initbodyModel_1();
 
@@ -340,6 +340,9 @@ public class ModelGT8NCDUEnd extends ModelConverter //Same as Filename
 		bodyModel[302] = new ModelRendererTurbo(this, 21, 36, textureX, textureY); // Box 302
 		bodyModel[303] = new ModelRendererTurbo(this, 1, 46, textureX, textureY); // Box 303
 		bodyModel[304] = new ModelRendererTurbo(this, 481, 38, textureX, textureY); // Box 304
+		bodyModel[305] = new ModelRendererTurbo(this, 149, 155, textureX, textureY); // Box 305
+		bodyModel[306] = new ModelRendererTurbo(this, 164, 152, textureX, textureY); // Box 306
+		bodyModel[307] = new ModelRendererTurbo(this, 134, 152, textureX, textureY); // Box 307
 
 		bodyModel[0].addShapeBox(0F, 0F, 0F, 6, 1, 16, 0F,0F, 0F, -1.75F, 0F, 0F, -0.5F, 0F, 0F, 0.5F, 0F, 0F, -1.25F, 0F, -0.1F, -1.75F, 0F, -0.1F, -0.5F, 0F, -0.1F, 0.5F, 0F, -0.1F, -1.25F); // Box 5
 		bodyModel[0].setRotationPoint(-30F, 3.5F, -8.5F);
@@ -1258,5 +1261,14 @@ public class ModelGT8NCDUEnd extends ModelConverter //Same as Filename
 
 		bodyModel[304].addShapeBox(0F, 0F, 0F, 10, 1, 1, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.23F, 0F, 0F, -0.23F, 0F, -0.75F, 0F, 0F, -0.75F, 0F, 0F, -0.75F, -0.225F, 0F, -0.75F, -0.225F); // Box 304
 		bodyModel[304].setRotationPoint(8F, -14.5F, 9F);
+
+		bodyModel[305].addShapeBox(0F, 0F, 0F, 4, 1, 5, 0F,0F, -0.4F, 0F, 0F, -0.4F, 0F, 0F, -0.4F, 0F, 0F, -0.4F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F); // Box 305
+		bodyModel[305].setRotationPoint(29F, -18F, -2.5F);
+
+		bodyModel[306].addShapeBox(0F, 0F, 0F, 4, 1, 5, 0F,0F, -0.4F, 0F, 0F, -0.4F, 0F, 0F, -1F, 0.5F, 0F, -1F, 0.5F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0.5F, 0F, 0F, 0.5F); // Box 306
+		bodyModel[306].setRotationPoint(29F, -18F, 2.5F);
+
+		bodyModel[307].addShapeBox(0F, 0F, 0F, 4, 1, 5, 0F,0F, -1F, 0.5F, 0F, -1F, 0.5F, 0F, -0.4F, 0F, 0F, -0.4F, 0F, 0F, 0F, 0.5F, 0F, 0F, 0.5F, 0F, 0F, 0F, 0F, 0F, 0F); // Box 307
+		bodyModel[307].setRotationPoint(29F, -18F, -7.5F);
 	}
 }
