@@ -55,6 +55,7 @@ public class EntityPassengerMGTKTail extends EntityRollingStock implements IPass
     public void registerSkins(){
         SkinRegistry.addSkin(this.getClass(), TramsInMotionInfo.modID, "textures/trains/MGT_K_Gray.png",new String[]{},
                 "Gray", "Standard HAVAG Livery");
+
     }
 
     @Override
@@ -144,7 +145,7 @@ public class EntityPassengerMGTKTail extends EntityRollingStock implements IPass
      * <h2>Rider offsets</h2>
      */
     @Override
-    public float[][] getRiderOffsets(){return new float[][]{{0.0f,0f, 0.0f}};}
+    public float[][] getRiderOffsets(){return new float[][]{{0.0f,0.0f, 0.0f}};}
 
     @Override
     public float[] getHitboxSize() {

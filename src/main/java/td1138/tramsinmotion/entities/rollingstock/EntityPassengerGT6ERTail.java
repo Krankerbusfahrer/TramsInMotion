@@ -80,7 +80,7 @@ public class EntityPassengerGT6ERTail extends EntityRollingStock implements IPas
 
     @Override
     public float weightKg() {
-        return 20200.0f;
+        return 18200.0f;
     }
 
     @Override

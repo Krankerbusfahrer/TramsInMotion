@@ -74,7 +74,7 @@ public class EntityPassengerGT8NCDUMiddle extends EntityRollingStock implements 
 
     @Override
     public float weightKg() {
-        return 20200.0f;
+        return 10000.0f;
     }
 
     @Override

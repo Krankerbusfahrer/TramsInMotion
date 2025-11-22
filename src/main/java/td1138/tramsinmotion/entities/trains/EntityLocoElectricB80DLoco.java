@@ -152,7 +152,7 @@ public class EntityLocoElectricB80DLoco extends ElectricTrain {
     }
 
     @Override
-    public float weightKg(){return 22f;}
+    public float weightKg(){return 22000f;}
 
     @Override
     public ItemStack[] getRecipe() {

@@ -148,7 +148,7 @@ public class EntityLocoElectricPT8Loco extends ElectricTrain {
     }
 
     @Override
-    public float weightKg(){return 22f;}
+    public float weightKg(){return 21000f;}
 
     @Override
     public ItemStack[] getRecipe() {
@@ -187,7 +187,7 @@ public class EntityLocoElectricPT8Loco extends ElectricTrain {
 
     @Override
     public float[][] modelRotations() {
-        return new float[][] {{180.0f,180.0f,0.0f}};
+        return new float[][] {{180.0f,0f,0.0f}};
     }
 
     /**
